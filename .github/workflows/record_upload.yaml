@@ -1,0 +1,21 @@
+name: github_trending
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+jobs:
+  ninenine99:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          pip install -r requirements.txt
+      - name: record and upload
+        run: |
+          python run.py
