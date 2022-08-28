@@ -15,7 +15,7 @@ jobs:
         run: |
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          pip insatll git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
       - name: record and upload
         run: |
