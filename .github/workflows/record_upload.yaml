@@ -4,7 +4,7 @@ on:
     - cron: "0 20 * * *"
   workflow_dispatch:
 jobs:
-  ninenine99:
+  python_github_trending:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -15,6 +15,7 @@ jobs:
         run: |
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+          pip insatll git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
       - name: record and upload
         run: |
