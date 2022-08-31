@@ -184,11 +184,9 @@ jobs:
           export access_token="${{{{ secrets.access_token }}}}"
           export json_file={config}
           export number={i}
-          export lang={lang}
+          export language={lang}
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 '''
 
