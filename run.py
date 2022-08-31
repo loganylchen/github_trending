@@ -89,10 +89,16 @@ Stars today: {info['date_range']}
     avid, bvid = uploader.upload(
         parts=parts,
         copyright=1,
-        title=f'{now}: Github Trending of {lang}',
+        title=f'{now}: Github Trending of {lang} : {int(os.environ["number"])+1} - {info["name"]}',
         tid=95,
         tag=f"{lang},{info['name']},{now}",
-        desc=f'Github Trending on {now} ',
+        desc=f'''
+bgm: {music}
+repo: {info['html_url']}
+stars: {info['stargazers_count']}
+description: {info['description']}
+Stars today: {info['date_range']}
+            ''',
         source='Github Trending',
         thread_pool_workers=5,
     )

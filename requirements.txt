@@ -2,3 +2,4 @@ starcli
 git+https://github.com/FortuneDayssss/BilibiliUploader.git@master#egg=BilibiliUploader
 gitpython
 docker
+jupyter
