@@ -102,7 +102,7 @@ Stars today: {info['date_range']}
 
 
 def main():
-    lang=os.environ['lang']
+    lang = os.environ['language']
     today = _now()
     music = _select_music_as_background()
     video, info = _generate_video()

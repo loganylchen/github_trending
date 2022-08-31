@@ -2,7 +2,7 @@
 name: github_trending_python
 on:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch:
 jobs:
     
@@ -21,11 +21,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/Python-100-Days.json
           export number=0
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_1:
@@ -43,11 +41,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/HelloGitHub.json
           export number=1
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_2:
@@ -65,11 +61,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/GFPGAN.json
           export number=2
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_3:
@@ -87,11 +81,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/ML-From-Scratch.json
           export number=3
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_4:
@@ -109,11 +101,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/poetry.json
           export number=4
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_5:
@@ -131,11 +121,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/dgl.json
           export number=5
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_6:
@@ -153,11 +141,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/gradio.json
           export number=6
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_7:
@@ -175,11 +161,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/sqlmodel.json
           export number=7
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_8:
@@ -197,11 +181,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/SMSBoom.json
           export number=8
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
 
   python_github_trending_9:
@@ -219,9 +201,7 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/tutorials.json
           export number=9
-          export lang=python
+          export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: record and upload
-        run: |
           python run.py        
