@@ -75,7 +75,7 @@ def _up_load(video, music, info, now,lang):
     parts = [
         VideoPart(
             path=video,
-            title=f'{now}: Github Trending of {lang} : {os.environ["number"]+1} - {info["name"]}',
+            title=f'{now}: Github Trending of {lang} : {int(os.environ["number"])+1} - {info["name"]}',
             desc=f'''
 bgm: {music}
 repo: {info['html_url']}
