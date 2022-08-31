@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[54]:
+# In[48]:
 
 
 from starcli.layouts import print_results, shorten_count
@@ -19,16 +19,24 @@ import os
 from datetime import datetime, timedelta
 import subprocess
 import time
+
 from bilibiliuploader.bilibiliuploader import BilibiliUploader
 from bilibiliuploader.core import VideoPart
+
+from git import Repo
+import docker
+import shutil
+import glob
+import random
+
+
 
 # could be made into config option in the future
 CACHED_RESULT_PATH = xdg_cache_home() / "starcli.json"
 CACHE_EXPIRATION = 1  # Minutes
 
 
-# In[55]:
-
+# In[56]:
 
 
 def _cli(
@@ -83,16 +91,6 @@ def _cli(
                     tmp_repos = result
 
     if not tmp_repos:  # If cache expired or results not yet cached
-        if auth and not re.search(".:.", auth):  # Check authentication format
-            click.secho(
-                f"Invalid authentication format: {auth} must be 'username:token'",
-                fg="bright_red",
-            )
-            click.secho(
-                "Use --help or see: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token",
-                fg="bright_red",
-            )
-            auth = None
 
         if (
             not spoken_language and not date_range
@@ -134,81 +132,99 @@ def _cli(
     return repos
 
 
-# In[56]:
+# In[57]:
 
 
-def _up_load(path,title,desc,tags):
+def _now():
+    return time.strftime("%Y-%m-%d", time.localtime()) 
+
+def _month_ago():
+    return (datetime.now()-timedelta(days =30)).strftime("%Y-%m-%d")
+
+
+# In[58]:
+
+
+def _select_music_as_background():
+    musics = glob.glob('mp3s/*mp3')
+    random_music = random.choice(musics)
+    os.rename(random_music, 'mp3s/background.mp3')
+    return os.path.basename(random_music).replace('.mp3', '')
+
+
+# In[59]:
+
+
+def _generate_video(info):
+    pwd = os.getcwd()
+    client = docker.from_env()
+    client.containers.run(image='utensils/envisaged',
+                          remove=True,
+                          volumes=[f'{pwd}/mp3s/background.mp3:/tmp/background.mp3',
+                                   f'{pwd}/border_template.sh:/visualization/border_template.sh',
+                                   f'{pwd}/results/:/visualization/output/', f'{pwd}/docker-entrypoint.sh:/usr/local/bin/entrypoint.sh'],
+                          environment=[
+                              f'''GIT_URL={info["html_url"]}''',
+                              f'''GOURCE_TITLE="{info['name']}"''',
+                              'mp3=/tmp/background.mp3',
+                              'VIDEO_RESOLUTION=2160p',
+                              'GOURCE_SECONDS_PER_DAY=3'
+                          ])
+    os.rename('results/output.mp4', 'wait_uploads/{}.mp4'.format(info['name']))
+    return 'wait_uploads/{}.mp4'.format(info['name'])
+
+
+# In[4]:
+
+
+def _up_load(video_files, music_name_list, title_list, info_list, now,lang):
     uploader = BilibiliUploader()
     uploader.login_by_access_token(os.environ['access_token'], os.environ['refresh_token'])
     parts = []
-    parts.append(VideoPart(
-        path=path,
-        title=title,
-        desc=desc
-    ))
+    for i, j, k,l in zip(video_files, music_name_list, title_list, info_list):
+        parts.append(VideoPart(
+            path=i,
+            title=k,
+            desc=f'''
+bgm: {j}
+repo: {l['html_url']}
+stars: {l['stargazers_count']}
+description: {l['description']}
+Stars today: {l['date_range']}
+            '''
+        ))
     # 上传
     avid, bvid = uploader.upload(
         parts=parts,
         copyright=1,
-        title=title,
+        title=f'{now}: Github Trending of {lang}',
         tid=95,
-        tag=",".join(tags),
-        desc=desc,
+        tag=",".join(title_list),
+        desc=f'Github Trending on {now} ',
         source='Github Trending',
         thread_pool_workers=5,
     )
 
 
-# In[57]:
+# In[ ]:
 
 
-def _date():
-    return time.strftime("%Y-%m-%d", time.localtime()) 
-
-_date()
-
-
-# In[61]:
-
-
-def _generate_bash(repo_list,lang):
-    if lang == '':
-        lang = 'pan'
-    
-    for repo in repo_list:
-        with open(f'{lang}.bash', 'w') as f:
-            cmd = f'''
-#!/bin/bash
-
-set -x
-set -e
-echo "{repo['name']}"
-mkdir -p avatars mp3s repo results
-cp bg.mp3 mp3s/
-git clone {repo['html_url']} repo
-docker run --rm  -v {os.getcwd()}/repo:/repos -v {os.getcwd()}/results:/results -v {os.getcwd()}/avatars:/avatars -v {os.getcwd()}/mp3s:/mp3s sandrokeil/gource:latest
-            '''
-            f.write(cmd)
-        p = subprocess.Popen(f'bash {os.getcwd()}/{lang}.bash', stdout=subprocess.PIPE,stderr=subprocess.PIPE ,shell=True)
-        o,e = p.communicate()
-        print(o,e)
-        mp4_path = f'results/gource.mp4'
-        _up_load(mp4_path,f'{_date()} Github Trending of {lang}', '每日Github趋势更新',['github trending',lang])
-        os.remove(f'results')
-        os.remove('repo')
-        
-
-
-# In[62]:
-
-
-for i in ['python']:
-    repo_list=_cli(i)
-    _generate_bash(repo_list,i)
+def main(lang):
+    info_list = _cli(lang)
+    video_files = []
+    music_name_list = []
+    title_list = []
+    today = _now()
+    for idx,info in enumerate(info_list):
+        music_name_list.append(_select_music_as_background())
+        video_files.append(_generate_video(info))
+        title_list.append(f"{idx}:{info['name']}")
+    _up_load(video_files, music_name_list, title_list, info_list, today,lang)
 
 
 # In[ ]:
 
 
-
+if __name__ == '__main__':
+    main('python')
 
