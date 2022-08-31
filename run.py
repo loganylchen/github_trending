@@ -105,6 +105,7 @@ def main():
     lang = os.environ['language']
     today = _now()
     music = _select_music_as_background()
+    print(lang,today,music,os.environ['number'])
     video, info = _generate_video()
     _up_load(video, music, info, today, lang)
 
