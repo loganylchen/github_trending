@@ -216,6 +216,7 @@ def main(lang):
     title_list = []
     today = _now()
     for idx,info in enumerate(info_list):
+        print(idx,info['name'])
         music_name_list.append(_select_music_as_background())
         video_files.append(_generate_video(info))
         title_list.append(f"{idx}:{info['name']}")
