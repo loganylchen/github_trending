@@ -148,7 +148,7 @@ def _month_ago():
 def _select_music_as_background():
     musics = glob.glob('mp3s/*mp3')
     random_music = random.choice(musics)
-    os.rename(random_music, 'mp3s/background.mp3')
+    shutil.copy2(random_music, 'mp3s/background.mp3')
     return os.path.basename(random_music).replace('.mp3', '')
 
 
