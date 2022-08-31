@@ -19,9 +19,9 @@ jobs:
           export access_token="${{ secrets.access_token }}"
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-      - name: download musics for background
-        run: |
-          ./download_music.bash
+      # - name: download musics for background
+      #   run: |
+      #     ./download_music.bash
       - name: record and upload
         run: |
           python run.py
