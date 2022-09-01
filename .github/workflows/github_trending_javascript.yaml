@@ -2,7 +2,7 @@
 name: github_trending_javascript
 on:
   schedule:
-    - cron: "0 19 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:
 jobs:
     
@@ -24,6 +24,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_react"
+          export jpg="wecover_GithubTrending_javascript_react.jpg"
           python run.py        
 
   javascript_github_trending_1:
@@ -44,6 +46,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_awesome-selfhosted"
+          export jpg="wecover_GithubTrending_javascript_awesome-selfhosted.jpg"
           python run.py        
 
   javascript_github_trending_2:
@@ -64,6 +68,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_material-ui"
+          export jpg="wecover_GithubTrending_javascript_material-ui.jpg"
           python run.py        
 
   javascript_github_trending_3:
@@ -84,6 +90,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_Web-Dev-For-Beginners"
+          export jpg="wecover_GithubTrending_javascript_Web-Dev-For-Beginners.jpg"
           python run.py        
 
   javascript_github_trending_4:
@@ -104,6 +112,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_serverless"
+          export jpg="wecover_GithubTrending_javascript_serverless.jpg"
           python run.py        
 
   javascript_github_trending_5:
@@ -124,6 +134,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_cypress"
+          export jpg="wecover_GithubTrending_javascript_cypress.jpg"
           python run.py        
 
   javascript_github_trending_6:
@@ -144,6 +156,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_quill"
+          export jpg="wecover_GithubTrending_javascript_quill.jpg"
           python run.py        
 
   javascript_github_trending_7:
@@ -164,6 +178,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_react-beautiful-dnd"
+          export jpg="wecover_GithubTrending_javascript_react-beautiful-dnd.jpg"
           python run.py        
 
   javascript_github_trending_8:
@@ -184,6 +200,8 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_30-Days-Of-JavaScript"
+          export jpg="wecover_GithubTrending_javascript_30-Days-Of-JavaScript.jpg"
           python run.py        
 
   javascript_github_trending_9:
@@ -204,4 +222,6 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_javascript_fabric.js"
+          export jpg="wecover_GithubTrending_javascript_fabric.js.jpg"
           python run.py        

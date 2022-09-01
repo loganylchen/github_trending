@@ -3,3 +3,4 @@ git+https://github.com/FortuneDayssss/BilibiliUploader.git@master#egg=BilibiliUp
 gitpython
 docker
 jupyter
+wecover

@@ -2,7 +2,7 @@
 name: github_trending_python
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:
 jobs:
     
@@ -24,6 +24,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_Python-100-Days"
+          export jpg="wecover_GithubTrending_python_Python-100-Days.jpg"
           python run.py        
 
   python_github_trending_1:
@@ -44,6 +46,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_HelloGitHub"
+          export jpg="wecover_GithubTrending_python_HelloGitHub.jpg"
           python run.py        
 
   python_github_trending_2:
@@ -64,6 +68,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_GFPGAN"
+          export jpg="wecover_GithubTrending_python_GFPGAN.jpg"
           python run.py        
 
   python_github_trending_3:
@@ -84,6 +90,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_ML-From-Scratch"
+          export jpg="wecover_GithubTrending_python_ML-From-Scratch.jpg"
           python run.py        
 
   python_github_trending_4:
@@ -104,6 +112,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_poetry"
+          export jpg="wecover_GithubTrending_python_poetry.jpg"
           python run.py        
 
   python_github_trending_5:
@@ -124,6 +134,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_dgl"
+          export jpg="wecover_GithubTrending_python_dgl.jpg"
           python run.py        
 
   python_github_trending_6:
@@ -144,6 +156,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_gradio"
+          export jpg="wecover_GithubTrending_python_gradio.jpg"
           python run.py        
 
   python_github_trending_7:
@@ -164,6 +178,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_sqlmodel"
+          export jpg="wecover_GithubTrending_python_sqlmodel.jpg"
           python run.py        
 
   python_github_trending_8:
@@ -184,6 +200,8 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_SMSBoom"
+          export jpg="wecover_GithubTrending_python_SMSBoom.jpg"
           python run.py        
 
   python_github_trending_9:
@@ -204,4 +222,6 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_python_tutorials"
+          export jpg="wecover_GithubTrending_python_tutorials.jpg"
           python run.py        

@@ -2,7 +2,7 @@
 name: github_trending_c
 on:
   schedule:
-    - cron: "0 15 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
 jobs:
     
@@ -24,6 +24,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_linux"
+          export jpg="wecover_GithubTrending_c_linux.jpg"
           python run.py        
 
   c_github_trending_1:
@@ -44,6 +46,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_emscripten"
+          export jpg="wecover_GithubTrending_c_emscripten.jpg"
           python run.py        
 
   c_github_trending_2:
@@ -64,6 +68,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_libsodium"
+          export jpg="wecover_GithubTrending_c_libsodium.jpg"
           python run.py        
 
   c_github_trending_3:
@@ -84,6 +90,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_lvgl"
+          export jpg="wecover_GithubTrending_c_lvgl.jpg"
           python run.py        
 
   c_github_trending_4:
@@ -104,6 +112,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_vlc"
+          export jpg="wecover_GithubTrending_c_vlc.jpg"
           python run.py        
 
   c_github_trending_5:
@@ -124,6 +134,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_libevent"
+          export jpg="wecover_GithubTrending_c_libevent.jpg"
           python run.py        
 
   c_github_trending_6:
@@ -144,6 +156,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_cosmopolitan"
+          export jpg="wecover_GithubTrending_c_cosmopolitan.jpg"
           python run.py        
 
   c_github_trending_7:
@@ -164,6 +178,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_xLua"
+          export jpg="wecover_GithubTrending_c_xLua.jpg"
           python run.py        
 
   c_github_trending_8:
@@ -184,6 +200,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_ImageMagick"
+          export jpg="wecover_GithubTrending_c_ImageMagick.jpg"
           python run.py        
 
   c_github_trending_9:
@@ -204,4 +222,6 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_c_rt-thread"
+          export jpg="wecover_GithubTrending_c_rt-thread.jpg"
           python run.py        

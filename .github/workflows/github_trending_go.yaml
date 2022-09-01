@@ -2,7 +2,7 @@
 name: github_trending_go
 on:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 jobs:
     
@@ -24,6 +24,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_go"
+          export jpg="wecover_GithubTrending_go_go.jpg"
           python run.py        
 
   go_github_trending_1:
@@ -44,6 +46,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_esbuild"
+          export jpg="wecover_GithubTrending_go_esbuild.jpg"
           python run.py        
 
   go_github_trending_2:
@@ -64,6 +68,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_mattermost-server"
+          export jpg="wecover_GithubTrending_go_mattermost-server.jpg"
           python run.py        
 
   go_github_trending_3:
@@ -84,6 +90,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_cli"
+          export jpg="wecover_GithubTrending_go_cli.jpg"
           python run.py        
 
   go_github_trending_4:
@@ -104,6 +112,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_restic"
+          export jpg="wecover_GithubTrending_go_restic.jpg"
           python run.py        
 
   go_github_trending_5:
@@ -124,6 +134,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_redis"
+          export jpg="wecover_GithubTrending_go_redis.jpg"
           python run.py        
 
   go_github_trending_6:
@@ -144,6 +156,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_ent"
+          export jpg="wecover_GithubTrending_go_ent.jpg"
           python run.py        
 
   go_github_trending_7:
@@ -164,6 +178,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_nats-server"
+          export jpg="wecover_GithubTrending_go_nats-server.jpg"
           python run.py        
 
   go_github_trending_8:
@@ -184,6 +200,8 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_nuclei"
+          export jpg="wecover_GithubTrending_go_nuclei.jpg"
           python run.py        
 
   go_github_trending_9:
@@ -204,4 +222,6 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_go_VictoriaMetrics"
+          export jpg="wecover_GithubTrending_go_VictoriaMetrics.jpg"
           python run.py        

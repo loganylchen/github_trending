@@ -187,6 +187,8 @@ jobs:
           export language={lang}
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_{lang}_{j['name']}"
+          export jpg="wecover_GithubTrending_{lang}_{j['name']}.jpg"
           python run.py        
 '''
 

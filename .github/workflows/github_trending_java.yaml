@@ -2,7 +2,7 @@
 name: github_trending_java
 on:
   schedule:
-    - cron: "0 13 * * *"
+    - cron: "0 24 * * *"
   workflow_dispatch:
 jobs:
     
@@ -24,6 +24,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_JavaGuide"
+          export jpg="wecover_GithubTrending_java_JavaGuide.jpg"
           python run.py        
 
   java_github_trending_1:
@@ -44,6 +46,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_elasticsearch"
+          export jpg="wecover_GithubTrending_java_elasticsearch.jpg"
           python run.py        
 
   java_github_trending_2:
@@ -64,6 +68,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_tutorials"
+          export jpg="wecover_GithubTrending_java_tutorials.jpg"
           python run.py        
 
   java_github_trending_3:
@@ -84,6 +90,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_druid"
+          export jpg="wecover_GithubTrending_java_druid.jpg"
           python run.py        
 
   java_github_trending_4:
@@ -104,6 +112,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_easyexcel"
+          export jpg="wecover_GithubTrending_java_easyexcel.jpg"
           python run.py        
 
   java_github_trending_5:
@@ -124,6 +134,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_hutool"
+          export jpg="wecover_GithubTrending_java_hutool.jpg"
           python run.py        
 
   java_github_trending_6:
@@ -144,6 +156,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_toBeTopJavaer"
+          export jpg="wecover_GithubTrending_java_toBeTopJavaer.jpg"
           python run.py        
 
   java_github_trending_7:
@@ -164,6 +178,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_spring-cloud-alibaba"
+          export jpg="wecover_GithubTrending_java_spring-cloud-alibaba.jpg"
           python run.py        
 
   java_github_trending_8:
@@ -184,6 +200,8 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_seata"
+          export jpg="wecover_GithubTrending_java_seata.jpg"
           python run.py        
 
   java_github_trending_9:
@@ -204,4 +222,6 @@ jobs:
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_java_bazel"
+          export jpg="wecover_GithubTrending_java_bazel.jpg"
           python run.py        

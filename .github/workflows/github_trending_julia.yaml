@@ -2,7 +2,7 @@
 name: github_trending_julia
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 14 * * *"
   workflow_dispatch:
 jobs:
     
@@ -24,6 +24,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_julia"
+          export jpg="wecover_GithubTrending_julia_julia.jpg"
           python run.py        
 
   julia_github_trending_1:
@@ -44,6 +46,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_Pluto.jl"
+          export jpg="wecover_GithubTrending_julia_Pluto.jl.jpg"
           python run.py        
 
   julia_github_trending_2:
@@ -64,6 +68,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_Flux.jl"
+          export jpg="wecover_GithubTrending_julia_Flux.jl.jpg"
           python run.py        
 
   julia_github_trending_3:
@@ -84,6 +90,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_DifferentialEquations.jl"
+          export jpg="wecover_GithubTrending_julia_DifferentialEquations.jl.jpg"
           python run.py        
 
   julia_github_trending_4:
@@ -104,6 +112,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_JuMP.jl"
+          export jpg="wecover_GithubTrending_julia_JuMP.jl.jpg"
           python run.py        
 
   julia_github_trending_5:
@@ -124,6 +134,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_Plots.jl"
+          export jpg="wecover_GithubTrending_julia_Plots.jl.jpg"
           python run.py        
 
   julia_github_trending_6:
@@ -144,6 +156,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_PyCall.jl"
+          export jpg="wecover_GithubTrending_julia_PyCall.jl.jpg"
           python run.py        
 
   julia_github_trending_7:
@@ -164,6 +178,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_PackageCompiler.jl"
+          export jpg="wecover_GithubTrending_julia_PackageCompiler.jl.jpg"
           python run.py        
 
   julia_github_trending_8:
@@ -184,6 +200,8 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_penumbra"
+          export jpg="wecover_GithubTrending_julia_penumbra.jpg"
           python run.py        
 
   julia_github_trending_9:
@@ -204,4 +222,6 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+          wecover "GithubTrending_julia_CUDA.jl"
+          export jpg="wecover_GithubTrending_julia_CUDA.jl.jpg"
           python run.py        
