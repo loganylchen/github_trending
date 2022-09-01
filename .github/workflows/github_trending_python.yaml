@@ -2,7 +2,11 @@
 name: github_trending_python
 on:
   schedule:
+<<<<<<< HEAD
     - cron: "0 11 * * *"
+=======
+    - cron: "0 7 * * *"
+>>>>>>> a698bf4f41058d7820dc2b155508baf2d0deb29a
   workflow_dispatch:
 jobs:
     
