@@ -1,12 +1,12 @@
 
-name: github_trending_python
+name: github_trending_c
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "0 15 * * *"
   workflow_dispatch:
 jobs:
     
-  python_github_trending_0:
+  c_github_trending_0:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -19,14 +19,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Python-100-Days.json
+          export json_file=configs/linux.json
           export number=0
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_1:
+  c_github_trending_1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -39,14 +39,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/HelloGitHub.json
+          export json_file=configs/emscripten.json
           export number=1
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_2:
+  c_github_trending_2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -59,14 +59,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/GFPGAN.json
+          export json_file=configs/libsodium.json
           export number=2
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_3:
+  c_github_trending_3:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -79,14 +79,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ML-From-Scratch.json
+          export json_file=configs/lvgl.json
           export number=3
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_4:
+  c_github_trending_4:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -99,14 +99,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/poetry.json
+          export json_file=configs/vlc.json
           export number=4
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_5:
+  c_github_trending_5:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -119,14 +119,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/dgl.json
+          export json_file=configs/libevent.json
           export number=5
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_6:
+  c_github_trending_6:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -139,14 +139,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/gradio.json
+          export json_file=configs/cosmopolitan.json
           export number=6
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_7:
+  c_github_trending_7:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -159,14 +159,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/sqlmodel.json
+          export json_file=configs/xLua.json
           export number=7
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_8:
+  c_github_trending_8:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -179,14 +179,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/SMSBoom.json
+          export json_file=configs/ImageMagick.json
           export number=8
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_9:
+  c_github_trending_9:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -199,9 +199,9 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/tutorials.json
+          export json_file=configs/rt-thread.json
           export number=9
-          export language=python
+          export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        

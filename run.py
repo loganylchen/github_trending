@@ -92,9 +92,6 @@ Stars today: {info['date_range']}
         title=f'{now}: Github Trending of {lang} : {int(os.environ["number"])+1} - {info["name"]}',
         tid=95,
         tag=f"{lang},{info['name']},{now}",
-<<<<<<< HEAD
-        desc=f'Github Trending on {now} ',
-=======
         desc=f'''
 bgm: {music}
 repo: {info['html_url']}
@@ -102,7 +99,6 @@ stars: {info['stargazers_count']}
 description: {info['description']}
 Stars today: {info['date_range']}
             ''',
->>>>>>> a698bf4f41058d7820dc2b155508baf2d0deb29a
         source='Github Trending',
         thread_pool_workers=5,
     )

@@ -1,10 +1,10 @@
 {
-    "full_name": "pytorch/tutorials",
+    "full_name": "eugenp/tutorials",
     "name": "tutorials",
-    "html_url": "https://github.com/pytorch/tutorials",
-    "stargazers_count": 6274,
-    "language": "Python",
-    "description": "PyTorch tutorials.",
-    "date_range": "5 stars today",
+    "html_url": "https://github.com/eugenp/tutorials",
+    "stargazers_count": 31742,
+    "language": "Java",
+    "description": "Just Announced - \"Learn Spring Security OAuth\":",
+    "date_range": "16 stars today",
     "watchers_count": -1
 }

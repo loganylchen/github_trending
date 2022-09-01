@@ -1,12 +1,12 @@
 
-name: github_trending_python
+name: github_trending_java
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:
 jobs:
     
-  python_github_trending_0:
+  java_github_trending_0:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -19,14 +19,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Python-100-Days.json
+          export json_file=configs/JavaGuide.json
           export number=0
-          export language=python
+          export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_1:
+  java_github_trending_1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -39,154 +39,14 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/HelloGitHub.json
+          export json_file=configs/elasticsearch.json
           export number=1
-          export language=python
+          export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        
 
-  python_github_trending_2:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-      - uses: actions/checkout@v2
-      - name: get Environment
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg
-          export refresh_token="${{ secrets.refresh_token }}"
-          export access_token="${{ secrets.access_token }}"
-          export json_file=configs/GFPGAN.json
-          export number=2
-          export language=python
-          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
-          pip install -r requirements.txt
-          python run.py        
-
-  python_github_trending_3:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-      - uses: actions/checkout@v2
-      - name: get Environment
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg
-          export refresh_token="${{ secrets.refresh_token }}"
-          export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ML-From-Scratch.json
-          export number=3
-          export language=python
-          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
-          pip install -r requirements.txt
-          python run.py        
-
-  python_github_trending_4:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-      - uses: actions/checkout@v2
-      - name: get Environment
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg
-          export refresh_token="${{ secrets.refresh_token }}"
-          export access_token="${{ secrets.access_token }}"
-          export json_file=configs/poetry.json
-          export number=4
-          export language=python
-          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
-          pip install -r requirements.txt
-          python run.py        
-
-  python_github_trending_5:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-      - uses: actions/checkout@v2
-      - name: get Environment
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg
-          export refresh_token="${{ secrets.refresh_token }}"
-          export access_token="${{ secrets.access_token }}"
-          export json_file=configs/dgl.json
-          export number=5
-          export language=python
-          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
-          pip install -r requirements.txt
-          python run.py        
-
-  python_github_trending_6:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-      - uses: actions/checkout@v2
-      - name: get Environment
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg
-          export refresh_token="${{ secrets.refresh_token }}"
-          export access_token="${{ secrets.access_token }}"
-          export json_file=configs/gradio.json
-          export number=6
-          export language=python
-          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
-          pip install -r requirements.txt
-          python run.py        
-
-  python_github_trending_7:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-      - uses: actions/checkout@v2
-      - name: get Environment
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg
-          export refresh_token="${{ secrets.refresh_token }}"
-          export access_token="${{ secrets.access_token }}"
-          export json_file=configs/sqlmodel.json
-          export number=7
-          export language=python
-          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
-          pip install -r requirements.txt
-          python run.py        
-
-  python_github_trending_8:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.10"
-      - uses: actions/checkout@v2
-      - name: get Environment
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg
-          export refresh_token="${{ secrets.refresh_token }}"
-          export access_token="${{ secrets.access_token }}"
-          export json_file=configs/SMSBoom.json
-          export number=8
-          export language=python
-          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
-          pip install -r requirements.txt
-          python run.py        
-
-  python_github_trending_9:
+  java_github_trending_2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -200,8 +60,148 @@ jobs:
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
           export json_file=configs/tutorials.json
+          export number=2
+          export language=java
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          python run.py        
+
+  java_github_trending_3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/druid.json
+          export number=3
+          export language=java
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          python run.py        
+
+  java_github_trending_4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/easyexcel.json
+          export number=4
+          export language=java
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          python run.py        
+
+  java_github_trending_5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/hutool.json
+          export number=5
+          export language=java
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          python run.py        
+
+  java_github_trending_6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/toBeTopJavaer.json
+          export number=6
+          export language=java
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          python run.py        
+
+  java_github_trending_7:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/spring-cloud-alibaba.json
+          export number=7
+          export language=java
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          python run.py        
+
+  java_github_trending_8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/seata.json
+          export number=8
+          export language=java
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          python run.py        
+
+  java_github_trending_9:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/bazel.json
           export number=9
-          export language=python
+          export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           python run.py        

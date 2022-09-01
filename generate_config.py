@@ -209,6 +209,11 @@ def main(lang):
 
 if __name__ == '__main__':
     main('python')
+    main('java')
+    main('javascript')
+    main('go')
+    main('julia')
+    main('c')
 
 
 # In[32]:
