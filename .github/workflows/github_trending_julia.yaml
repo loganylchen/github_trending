@@ -2,7 +2,7 @@
 name: github_trending_julia
 on:
   schedule:
-    - cron: "0 14 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 jobs:
     

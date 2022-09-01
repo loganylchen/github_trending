@@ -2,7 +2,7 @@
 name: github_trending_java
 on:
   schedule:
-    - cron: "0 24 * * *"
+    - cron: "0 21 * * *"
   workflow_dispatch:
 jobs:
     
