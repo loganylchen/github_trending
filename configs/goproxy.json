@@ -2,9 +2,9 @@
     "full_name": "snail007/goproxy",
     "name": "goproxy",
     "html_url": "https://github.com/snail007/goproxy",
-    "stargazers_count": 12643,
+    "stargazers_count": 12645,
     "language": "Go",
     "description": "\ud83d\udd25 Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, it supports chain-style proxies,nat forwarding in different lan,TCP/UDP port forwarding, SSH forwarding.Proxy\u662fgolang\u5b9e\u73b0\u7684\u9ad8\u6027\u80fdhttp,https,websocket,tcp,socks5\u4ee3\u7406\u670d\u52a1\u5668,\u652f\u6301\u5185\u7f51\u7a7f\u900f,\u94fe\u5f0f\u4ee3\u7406,\u901a\u8baf\u52a0\u5bc6,\u667a\u80fdHTTP,SOCKS5\u4ee3\u7406,\u9ed1\u767d\u540d\u5355,\u9650\u901f,\u9650\u6d41\u91cf,\u9650\u8fde\u63a5\u6570,\u8de8\u5e73\u53f0,KCP\u652f\u6301,\u8ba4\u8bc1API\u3002",
-    "date_range": "7 stars today",
+    "date_range": "8 stars today",
     "watchers_count": -1
 }
