@@ -24,8 +24,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_julia"
-          export jpg="wecover_GithubTrending_julia_julia.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_1:
@@ -46,8 +45,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_Pluto.jl"
-          export jpg="wecover_GithubTrending_julia_Pluto.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_2:
@@ -68,8 +66,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_Flux.jl"
-          export jpg="wecover_GithubTrending_julia_Flux.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_3:
@@ -85,13 +82,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/DifferentialEquations.jl.json
+          export json_file=configs/IJulia.jl.json
           export number=3
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_DifferentialEquations.jl"
-          export jpg="wecover_GithubTrending_julia_DifferentialEquations.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_4:
@@ -107,13 +103,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/JuMP.jl.json
+          export json_file=configs/Genie.jl.json
           export number=4
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_JuMP.jl"
-          export jpg="wecover_GithubTrending_julia_JuMP.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_5:
@@ -129,13 +124,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Plots.jl.json
+          export json_file=configs/Makie.jl.json
           export number=5
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_Plots.jl"
-          export jpg="wecover_GithubTrending_julia_Plots.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_6:
@@ -151,13 +145,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/PyCall.jl.json
+          export json_file=configs/Plots.jl.json
           export number=6
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_PyCall.jl"
-          export jpg="wecover_GithubTrending_julia_PyCall.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_7:
@@ -173,13 +166,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/PackageCompiler.jl.json
+          export json_file=configs/DataFrames.jl.json
           export number=7
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_PackageCompiler.jl"
-          export jpg="wecover_GithubTrending_julia_PackageCompiler.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_8:
@@ -195,13 +187,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/penumbra.json
+          export json_file=configs/PyCall.jl.json
           export number=8
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_penumbra"
-          export jpg="wecover_GithubTrending_julia_penumbra.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   julia_github_trending_9:
@@ -217,11 +208,10 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/CUDA.jl.json
+          export json_file=configs/PackageCompiler.jl.json
           export number=9
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_julia_CUDA.jl"
-          export jpg="wecover_GithubTrending_julia_CUDA.jl.jpg"
+          export jpg="cover.jpeg"
           python run.py        

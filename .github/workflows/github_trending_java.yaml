@@ -2,7 +2,7 @@
 name: github_trending_java
 on:
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
 jobs:
     
@@ -19,13 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/JavaGuide.json
+          export json_file=configs/spring-framework.json
           export number=0
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_JavaGuide"
-          export jpg="wecover_GithubTrending_java_JavaGuide.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_1:
@@ -41,13 +40,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/elasticsearch.json
+          export json_file=configs/tutorials.json
           export number=1
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_elasticsearch"
-          export jpg="wecover_GithubTrending_java_elasticsearch.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_2:
@@ -63,13 +61,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/tutorials.json
+          export json_file=configs/easyexcel.json
           export number=2
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_tutorials"
-          export jpg="wecover_GithubTrending_java_tutorials.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_3:
@@ -85,13 +82,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/druid.json
+          export json_file=configs/hutool.json
           export number=3
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_druid"
-          export jpg="wecover_GithubTrending_java_druid.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_4:
@@ -107,13 +103,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/easyexcel.json
+          export json_file=configs/kafka.json
           export number=4
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_easyexcel"
-          export jpg="wecover_GithubTrending_java_easyexcel.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_5:
@@ -129,13 +124,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/hutool.json
+          export json_file=configs/seata.json
           export number=5
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_hutool"
-          export jpg="wecover_GithubTrending_java_hutool.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_6:
@@ -151,13 +145,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/toBeTopJavaer.json
+          export json_file=configs/SpringBoot-Learning.json
           export number=6
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_toBeTopJavaer"
-          export jpg="wecover_GithubTrending_java_toBeTopJavaer.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_7:
@@ -173,13 +166,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/spring-cloud-alibaba.json
+          export json_file=configs/material-components-android.json
           export number=7
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_spring-cloud-alibaba"
-          export jpg="wecover_GithubTrending_java_spring-cloud-alibaba.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_8:
@@ -195,13 +187,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/seata.json
+          export json_file=configs/openapi-generator.json
           export number=8
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_seata"
-          export jpg="wecover_GithubTrending_java_seata.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   java_github_trending_9:
@@ -217,11 +208,10 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/bazel.json
+          export json_file=configs/DataX.json
           export number=9
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_java_bazel"
-          export jpg="wecover_GithubTrending_java_bazel.jpg"
+          export jpg="cover.jpeg"
           python run.py        

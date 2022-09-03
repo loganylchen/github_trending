@@ -24,8 +24,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_Python-100-Days"
-          export jpg="wecover_GithubTrending_python_Python-100-Days.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_1:
@@ -41,13 +40,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/HelloGitHub.json
+          export json_file=configs/fastapi.json
           export number=1
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_HelloGitHub"
-          export jpg="wecover_GithubTrending_python_HelloGitHub.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_2:
@@ -63,13 +61,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/GFPGAN.json
+          export json_file=configs/pipenv.json
           export number=2
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_GFPGAN"
-          export jpg="wecover_GithubTrending_python_GFPGAN.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_3:
@@ -85,13 +82,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ML-From-Scratch.json
+          export json_file=configs/poetry.json
           export number=3
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_ML-From-Scratch"
-          export jpg="wecover_GithubTrending_python_ML-From-Scratch.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_4:
@@ -107,13 +103,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/poetry.json
+          export json_file=configs/tvm.json
           export number=4
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_poetry"
-          export jpg="wecover_GithubTrending_python_poetry.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_5:
@@ -129,13 +124,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/dgl.json
+          export json_file=configs/PaddleHub.json
           export number=5
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_dgl"
-          export jpg="wecover_GithubTrending_python_dgl.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_6:
@@ -151,13 +145,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/gradio.json
+          export json_file=configs/PaddleDetection.json
           export number=6
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_gradio"
-          export jpg="wecover_GithubTrending_python_gradio.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_7:
@@ -173,13 +166,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/sqlmodel.json
+          export json_file=configs/sentence-transformers.json
           export number=7
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_sqlmodel"
-          export jpg="wecover_GithubTrending_python_sqlmodel.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_8:
@@ -195,13 +187,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/SMSBoom.json
+          export json_file=configs/kedro.json
           export number=8
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_SMSBoom"
-          export jpg="wecover_GithubTrending_python_SMSBoom.jpg"
+          export jpg="cover.jpeg"
           python run.py        
 
   python_github_trending_9:
@@ -222,6 +213,5 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_tutorials"
-          export jpg="wecover_GithubTrending_python_tutorials.jpg"
+          export jpg="cover.jpeg"
           python run.py        
