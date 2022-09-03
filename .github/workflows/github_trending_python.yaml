@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Python-100-Days.json
+          export json_file=configs/public-apis.json
           export number=0
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_1:
@@ -40,12 +40,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/fastapi.json
+          export json_file=configs/scikit-learn.json
           export number=1
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_2:
@@ -61,12 +61,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/pipenv.json
+          export json_file=configs/poetry.json
           export number=2
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_3:
@@ -82,12 +82,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/poetry.json
+          export json_file=configs/vnpy.json
           export number=3
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_4:
@@ -103,12 +103,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/tvm.json
+          export json_file=configs/frida.json
           export number=4
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_5:
@@ -124,12 +124,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/PaddleHub.json
+          export json_file=configs/detr.json
           export number=5
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_6:
@@ -145,12 +145,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/PaddleDetection.json
+          export json_file=configs/sympy.json
           export number=6
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_7:
@@ -166,12 +166,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/sentence-transformers.json
+          export json_file=configs/wait-for-it.json
           export number=7
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_8:
@@ -192,7 +192,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   python_github_trending_9:
@@ -208,10 +208,10 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/tutorials.json
+          export json_file=configs/dagster.json
           export number=9
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        

@@ -24,7 +24,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_1:
@@ -45,7 +45,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_2:
@@ -66,7 +66,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_3:
@@ -87,7 +87,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_4:
@@ -108,7 +108,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_5:
@@ -129,7 +129,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_6:
@@ -150,7 +150,7 @@ jobs:
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_7:
@@ -166,12 +166,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/DataFrames.jl.json
+          export json_file=configs/ModelingToolkit.jl.json
           export number=7
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_8:
@@ -187,12 +187,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/PyCall.jl.json
+          export json_file=configs/CUDA.jl.json
           export number=8
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   julia_github_trending_9:
@@ -208,10 +208,10 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/PackageCompiler.jl.json
+          export json_file=configs/Pkg.jl.json
           export number=9
           export language=julia
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        

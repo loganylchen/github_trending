@@ -187,7 +187,7 @@ jobs:
           export language={lang}
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 '''
 

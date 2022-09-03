@@ -1,0 +1,10 @@
+{
+    "full_name": "prometheus/prometheus",
+    "name": "prometheus",
+    "html_url": "https://github.com/prometheus/prometheus",
+    "stargazers_count": 44125,
+    "language": "Go",
+    "description": "The Prometheus monitoring system and time series database.",
+    "date_range": "15 stars today",
+    "watchers_count": -1
+}

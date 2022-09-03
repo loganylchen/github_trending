@@ -24,7 +24,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_1:
@@ -40,12 +40,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/three.js.json
+          export json_file=configs/create-react-app.json
           export number=1
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_2:
@@ -61,12 +61,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/material-ui.json
+          export json_file=configs/three.js.json
           export number=2
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_3:
@@ -82,12 +82,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/clean-code-javascript.json
+          export json_file=configs/material-ui.json
           export number=3
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_4:
@@ -103,12 +103,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/reveal.js.json
+          export json_file=configs/clean-code-javascript.json
           export number=4
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_5:
@@ -124,12 +124,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Chart.js.json
+          export json_file=configs/reveal.js.json
           export number=5
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_6:
@@ -145,12 +145,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/strapi.json
+          export json_file=configs/Web-Dev-For-Beginners.json
           export number=6
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_7:
@@ -166,12 +166,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/cypress.json
+          export json_file=configs/wtfjs.json
           export number=7
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_8:
@@ -187,12 +187,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/hiring-without-whiteboards.json
+          export json_file=configs/30-Days-Of-JavaScript.json
           export number=8
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
 
   javascript_github_trending_9:
@@ -208,10 +208,10 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/remote-jobs.json
+          export json_file=configs/openzeppelin-contracts.json
           export number=9
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg="cover.jpeg"
+          export jpg=cover.jpeg
           python run.py        
