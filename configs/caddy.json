@@ -2,9 +2,16 @@
     "full_name": "caddyserver/caddy",
     "name": "caddy",
     "html_url": "https://github.com/caddyserver/caddy",
+<<<<<<< HEAD
     "stargazers_count": 43058,
     "language": "Go",
     "description": "Fast and extensible multi-platform HTTP/3 web server with automatic HTTPS",
     "date_range": "64 stars today",
+=======
+    "stargazers_count": 42497,
+    "language": "Go",
+    "description": "Fast, multi-platform web server with automatic HTTPS",
+    "date_range": "23 stars today",
+>>>>>>> origin/main
     "watchers_count": -1
 }

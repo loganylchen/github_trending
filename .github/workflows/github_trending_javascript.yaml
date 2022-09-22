@@ -2,7 +2,11 @@
 name: github_trending_javascript
 on:
   schedule:
+<<<<<<< HEAD
     - cron: "0 15 * * *"
+=======
+    - cron: "0 5 * * *"
+>>>>>>> origin/main
   workflow_dispatch:
 jobs:
     
@@ -19,13 +23,17 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/react.json
+          export json_file=configs/awesome-selfhosted.json
           export number=0
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_react"
           export jpg="javascript_0.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_1:
@@ -41,13 +49,21 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/javascript-algorithms.json
+=======
+          export json_file=configs/create-react-app.json
+>>>>>>> origin/main
           export number=1
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_javascript-algorithms"
           export jpg="javascript_1.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_2:
@@ -63,13 +79,21 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/next.js.json
+=======
+          export json_file=configs/three.js.json
+>>>>>>> origin/main
           export number=2
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_next.js"
           export jpg="javascript_2.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_3:
@@ -85,13 +109,21 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/tech-interview-handbook.json
+=======
+          export json_file=configs/material-ui.json
+>>>>>>> origin/main
           export number=3
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_tech-interview-handbook"
           export jpg="javascript_3.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_4:
@@ -107,13 +139,21 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/mermaid.json
+=======
+          export json_file=configs/clean-code-javascript.json
+>>>>>>> origin/main
           export number=4
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_mermaid"
           export jpg="javascript_4.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_5:
@@ -129,13 +169,21 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/lerna.json
+=======
+          export json_file=configs/reveal.js.json
+>>>>>>> origin/main
           export number=5
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_lerna"
           export jpg="javascript_5.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_6:
@@ -151,13 +199,21 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/reactjs-interview-questions.json
+=======
+          export json_file=configs/Web-Dev-For-Beginners.json
+>>>>>>> origin/main
           export number=6
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_reactjs-interview-questions"
           export jpg="javascript_6.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_7:
@@ -173,13 +229,21 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/JavaScript.json
+=======
+          export json_file=configs/wtfjs.json
+>>>>>>> origin/main
           export number=7
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_JavaScript"
           export jpg="javascript_7.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_8:
@@ -200,8 +264,12 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_discord.js"
           export jpg="javascript_8.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        
 
   javascript_github_trending_9:
@@ -217,11 +285,19 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
+<<<<<<< HEAD
           export json_file=configs/jitsi-meet.json
+=======
+          export json_file=configs/openzeppelin-contracts.json
+>>>>>>> origin/main
           export number=9
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
+<<<<<<< HEAD
           wecover "GithubTrending_javascript_jitsi-meet"
           export jpg="javascript_9.png"
+=======
+          export jpg=cover.jpeg
+>>>>>>> origin/main
           python run.py        

@@ -1,0 +1,10 @@
+{
+    "full_name": "timescale/timescaledb",
+    "name": "timescaledb",
+    "html_url": "https://github.com/timescale/timescaledb",
+    "stargazers_count": 13568,
+    "language": "C",
+    "description": "An open-source time-series SQL database optimized for fast ingest and complex queries. Packaged as a PostgreSQL extension.",
+    "date_range": "11 stars today",
+    "watchers_count": -1
+}

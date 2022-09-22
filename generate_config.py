@@ -179,7 +179,7 @@ def _generate_ga_config(info_list,  lang):
 name: github_trending_{lang}
 on:
   schedule:
-    - cron: "0 {random.randint(0,23)} * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 jobs:
     '''

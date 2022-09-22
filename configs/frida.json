@@ -2,9 +2,16 @@
     "full_name": "frida/frida",
     "name": "frida",
     "html_url": "https://github.com/frida/frida",
+<<<<<<< HEAD
     "stargazers_count": 10638,
     "language": "Python",
     "description": "Clone this repo to build Frida",
     "date_range": "12 stars today",
+=======
+    "stargazers_count": 10504,
+    "language": "Python",
+    "description": "Clone this repo to build Frida",
+    "date_range": "13 stars today",
+>>>>>>> origin/main
     "watchers_count": -1
 }

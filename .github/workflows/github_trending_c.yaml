@@ -2,7 +2,7 @@
 name: github_trending_c
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 jobs:
     
@@ -19,13 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/linux.json
+          export json_file=configs/obs-studio.json
           export number=0
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_linux"
-          export jpg="wecover_GithubTrending_c_linux.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_1:
@@ -41,13 +40,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/emscripten.json
+          export json_file=configs/Ventoy.json
           export number=1
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_emscripten"
-          export jpg="wecover_GithubTrending_c_emscripten.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_2:
@@ -63,13 +61,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/libsodium.json
+          export json_file=configs/php-src.json
           export number=2
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_libsodium"
-          export jpg="wecover_GithubTrending_c_libsodium.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_3:
@@ -85,13 +82,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/lvgl.json
+          export json_file=configs/curl.json
           export number=3
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_lvgl"
-          export jpg="wecover_GithubTrending_c_lvgl.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_4:
@@ -107,13 +103,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/vlc.json
+          export json_file=configs/libuv.json
           export number=4
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_vlc"
-          export jpg="wecover_GithubTrending_c_vlc.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_5:
@@ -129,13 +124,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/libevent.json
+          export json_file=configs/open-gpu-kernel-modules.json
           export number=5
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_libevent"
-          export jpg="wecover_GithubTrending_c_libevent.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_6:
@@ -151,13 +145,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/cosmopolitan.json
+          export json_file=configs/skynet.json
           export number=6
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_cosmopolitan"
-          export jpg="wecover_GithubTrending_c_cosmopolitan.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_7:
@@ -173,13 +166,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/xLua.json
+          export json_file=configs/reactos.json
           export number=7
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_xLua"
-          export jpg="wecover_GithubTrending_c_xLua.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_8:
@@ -195,13 +187,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ImageMagick.json
+          export json_file=configs/Tinyhttpd.json
           export number=8
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_ImageMagick"
-          export jpg="wecover_GithubTrending_c_ImageMagick.jpg"
+          export jpg=cover.jpeg
           python run.py        
 
   c_github_trending_9:
@@ -217,11 +208,10 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/rt-thread.json
+          export json_file=configs/react-native-code-push.json
           export number=9
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_rt-thread"
-          export jpg="wecover_GithubTrending_c_rt-thread.jpg"
+          export jpg=cover.jpeg
           python run.py        
