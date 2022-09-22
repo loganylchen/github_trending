@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[1]:
 
 
 from starcli.layouts import print_results, shorten_count
@@ -29,15 +29,19 @@ import shutil
 import glob
 import random
 from PIL import Image, ImageFont, ImageDraw
+import glob
+import requests
 
+import urllib
 
+import ssl
 
 # could be made into config option in the future
 CACHED_RESULT_PATH = xdg_cache_home() / "starcli.json"
 CACHE_EXPIRATION = 1  # Minutes
 
 
-# In[11]:
+# In[2]:
 
 
 def _cli(
@@ -133,7 +137,7 @@ def _cli(
     return repos
 
 
-# In[12]:
+# In[3]:
 
 
 def _now():
@@ -143,7 +147,25 @@ def _month_ago():
     return (datetime.now()-timedelta(days =30)).strftime("%Y-%m-%d")
 
 
-# In[13]:
+# In[16]:
+
+
+def get_url():
+    time = datetime.now()
+    # from insert_to import insert
+    start_url = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1"
+    # context = ssl._create_unverified_context()
+    ssl._create_default_https_context = ssl._create_unverified_context
+    response = requests.get(start_url)
+    url = "https://www.bing.com" + response.json()['images'][0]['url']
+    image_name = response.json()['images'][0]['copyright'].split(
+        '(')[0] + '.jpg'
+    filename = f'images/{time.year}-{time.month}-{time.day}.jpg'
+    urllib.request.urlretrieve(url, filename)
+    
+
+
+# In[17]:
 
 
 def _select_music_as_background():
@@ -153,12 +175,12 @@ def _select_music_as_background():
     return os.path.basename(random_music).replace('.mp3', '')
 
 
-# In[14]:
+# In[18]:
 
 
-def generate_show_photo(image, lang, name, n):
+def generate_show_photo(lang, name, n, imagefile='background.png',):
  
-    image = Image.open('background.png')
+    image = Image.open(imagefile)
     title_font = ImageFont.truetype('Pacifico.ttf', 100)
     title_text = f'''{_now()}
 Github Trending 
@@ -170,7 +192,7 @@ Github Trending
     image.save(f'figures/{lang}_{n}.png')
 
 
-# In[15]:
+# In[19]:
 
 
 def _generate_ga_config(info_list,  lang):
@@ -183,7 +205,8 @@ on:
 jobs:
     '''
     for i, j in enumerate(info_list):
-        generate_show_photo('background.png', lang, j["name"], i)
+        files = glob.glob('images/*')
+        generate_show_photo( lang, j["name"], i,random.choice(files))
         config = f'configs/{j["name"]}.json'
         with open(config, 'w') as f:
             json.dump(j, f, indent=4)
@@ -206,7 +229,7 @@ jobs:
           export language={lang}
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_{lang}_{j['name']}"
+          # wecover "GithubTrending_{lang}_{j['name']}"
           export jpg="figures/{lang}_{i}.png"
           python run.py        
 '''
@@ -214,22 +237,23 @@ jobs:
     return default_config
 
 
-# In[16]:
+# In[20]:
 
 
 def main(lang):
+    
     info_list = _cli(lang)
     today = _now()
-    
     with open(f'.github/workflows/github_trending_{lang}.yaml', 'w') as f:
         f.write(_generate_ga_config(info_list,  lang))
    
 
 
-# In[18]:
+# In[21]:
 
 
 if __name__ == '__main__':
+    get_url()
     main('python')
     main('java')
     main('javascript')
@@ -239,6 +263,12 @@ if __name__ == '__main__':
 
 
 # 
+
+# In[16]:
+
+
+
+
 
 # In[ ]:
 

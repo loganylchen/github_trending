@@ -24,7 +24,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_linux"
+          # wecover "GithubTrending_c_linux"
           export jpg="figures/c_0.png"
           python run.py        
 
@@ -46,7 +46,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_Ventoy"
+          # wecover "GithubTrending_c_Ventoy"
           export jpg="figures/c_1.png"
           python run.py        
 
@@ -68,7 +68,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_wrk"
+          # wecover "GithubTrending_c_wrk"
           export jpg="figures/c_2.png"
           python run.py        
 
@@ -90,7 +90,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_FFmpeg"
+          # wecover "GithubTrending_c_FFmpeg"
           export jpg="figures/c_3.png"
           python run.py        
 
@@ -112,7 +112,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_curl"
+          # wecover "GithubTrending_c_curl"
           export jpg="figures/c_4.png"
           python run.py        
 
@@ -134,7 +134,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_emscripten"
+          # wecover "GithubTrending_c_emscripten"
           export jpg="figures/c_5.png"
           python run.py        
 
@@ -156,7 +156,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_libuv"
+          # wecover "GithubTrending_c_libuv"
           export jpg="figures/c_6.png"
           python run.py        
 
@@ -178,7 +178,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_qmk_firmware"
+          # wecover "GithubTrending_c_qmk_firmware"
           export jpg="figures/c_7.png"
           python run.py        
 
@@ -200,7 +200,7 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_systemd"
+          # wecover "GithubTrending_c_systemd"
           export jpg="figures/c_8.png"
           python run.py        
 
@@ -222,6 +222,6 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_c_cosmopolitan"
+          # wecover "GithubTrending_c_cosmopolitan"
           export jpg="figures/c_9.png"
           python run.py        

@@ -24,7 +24,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_shiny"
+          # wecover "GithubTrending_R_shiny"
           export jpg="figures/R_0.png"
           python run.py        
 
@@ -46,7 +46,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_stat_rethinking_2022"
+          # wecover "GithubTrending_R_stat_rethinking_2022"
           export jpg="figures/R_1.png"
           python run.py        
 
@@ -68,7 +68,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_data.table"
+          # wecover "GithubTrending_R_data.table"
           export jpg="figures/R_2.png"
           python run.py        
 
@@ -90,7 +90,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_plotly.R"
+          # wecover "GithubTrending_R_plotly.R"
           export jpg="figures/R_3.png"
           python run.py        
 
@@ -112,7 +112,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_knitr"
+          # wecover "GithubTrending_R_knitr"
           export jpg="figures/R_4.png"
           python run.py        
 
@@ -134,7 +134,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_seurat"
+          # wecover "GithubTrending_R_seurat"
           export jpg="figures/R_5.png"
           python run.py        
 
@@ -156,7 +156,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_rnaseq_tutorial"
+          # wecover "GithubTrending_R_rnaseq_tutorial"
           export jpg="figures/R_6.png"
           python run.py        
 
@@ -178,7 +178,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_tidyr"
+          # wecover "GithubTrending_R_tidyr"
           export jpg="figures/R_7.png"
           python run.py        
 
@@ -200,7 +200,7 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_r-color-palettes"
+          # wecover "GithubTrending_R_r-color-palettes"
           export jpg="figures/R_8.png"
           python run.py        
 
@@ -222,6 +222,6 @@ jobs:
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_R_sparklyr"
+          # wecover "GithubTrending_R_sparklyr"
           export jpg="figures/R_9.png"
           python run.py        

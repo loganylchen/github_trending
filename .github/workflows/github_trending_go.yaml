@@ -24,7 +24,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_minio"
+          # wecover "GithubTrending_go_minio"
           export jpg="figures/go_0.png"
           python run.py        
 
@@ -46,7 +46,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_terraform"
+          # wecover "GithubTrending_go_terraform"
           export jpg="figures/go_1.png"
           python run.py        
 
@@ -68,7 +68,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_vault"
+          # wecover "GithubTrending_go_vault"
           export jpg="figures/go_2.png"
           python run.py        
 
@@ -90,7 +90,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_learngo"
+          # wecover "GithubTrending_go_learngo"
           export jpg="figures/go_3.png"
           python run.py        
 
@@ -112,7 +112,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_goproxy"
+          # wecover "GithubTrending_go_goproxy"
           export jpg="figures/go_4.png"
           python run.py        
 
@@ -134,7 +134,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_nomad"
+          # wecover "GithubTrending_go_nomad"
           export jpg="figures/go_5.png"
           python run.py        
 
@@ -156,7 +156,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_telegraf"
+          # wecover "GithubTrending_go_telegraf"
           export jpg="figures/go_6.png"
           python run.py        
 
@@ -178,7 +178,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_beats"
+          # wecover "GithubTrending_go_beats"
           export jpg="figures/go_7.png"
           python run.py        
 
@@ -200,7 +200,7 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_rqlite"
+          # wecover "GithubTrending_go_rqlite"
           export jpg="figures/go_8.png"
           python run.py        
 
@@ -222,6 +222,6 @@ jobs:
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_go_migrate"
+          # wecover "GithubTrending_go_migrate"
           export jpg="figures/go_9.png"
           python run.py        

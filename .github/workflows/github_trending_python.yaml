@@ -24,7 +24,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_system-design-primer"
+          # wecover "GithubTrending_python_system-design-primer"
           export jpg="figures/python_0.png"
           python run.py        
 
@@ -46,7 +46,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_Python"
+          # wecover "GithubTrending_python_Python"
           export jpg="figures/python_1.png"
           python run.py        
 
@@ -68,7 +68,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_scikit-learn"
+          # wecover "GithubTrending_python_scikit-learn"
           export jpg="figures/python_2.png"
           python run.py        
 
@@ -90,7 +90,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_localstack"
+          # wecover "GithubTrending_python_localstack"
           export jpg="figures/python_3.png"
           python run.py        
 
@@ -112,7 +112,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_devops-exercises"
+          # wecover "GithubTrending_python_devops-exercises"
           export jpg="figures/python_4.png"
           python run.py        
 
@@ -134,7 +134,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_airflow"
+          # wecover "GithubTrending_python_airflow"
           export jpg="figures/python_5.png"
           python run.py        
 
@@ -156,7 +156,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_data-science-ipython-notebooks"
+          # wecover "GithubTrending_python_data-science-ipython-notebooks"
           export jpg="figures/python_6.png"
           python run.py        
 
@@ -178,7 +178,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_frida"
+          # wecover "GithubTrending_python_frida"
           export jpg="figures/python_7.png"
           python run.py        
 
@@ -200,7 +200,7 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_scipy"
+          # wecover "GithubTrending_python_scipy"
           export jpg="figures/python_8.png"
           python run.py        
 
@@ -222,6 +222,6 @@ jobs:
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_python_pandas-profiling"
+          # wecover "GithubTrending_python_pandas-profiling"
           export jpg="figures/python_9.png"
           python run.py        

@@ -24,7 +24,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_react"
+          # wecover "GithubTrending_javascript_react"
           export jpg="figures/javascript_0.png"
           python run.py        
 
@@ -46,7 +46,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_javascript-algorithms"
+          # wecover "GithubTrending_javascript_javascript-algorithms"
           export jpg="figures/javascript_1.png"
           python run.py        
 
@@ -68,7 +68,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_next.js"
+          # wecover "GithubTrending_javascript_next.js"
           export jpg="figures/javascript_2.png"
           python run.py        
 
@@ -90,7 +90,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_tech-interview-handbook"
+          # wecover "GithubTrending_javascript_tech-interview-handbook"
           export jpg="figures/javascript_3.png"
           python run.py        
 
@@ -112,7 +112,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_mermaid"
+          # wecover "GithubTrending_javascript_mermaid"
           export jpg="figures/javascript_4.png"
           python run.py        
 
@@ -134,7 +134,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_lerna"
+          # wecover "GithubTrending_javascript_lerna"
           export jpg="figures/javascript_5.png"
           python run.py        
 
@@ -156,7 +156,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_reactjs-interview-questions"
+          # wecover "GithubTrending_javascript_reactjs-interview-questions"
           export jpg="figures/javascript_6.png"
           python run.py        
 
@@ -178,7 +178,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_JavaScript"
+          # wecover "GithubTrending_javascript_JavaScript"
           export jpg="figures/javascript_7.png"
           python run.py        
 
@@ -200,7 +200,7 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_discord.js"
+          # wecover "GithubTrending_javascript_discord.js"
           export jpg="figures/javascript_8.png"
           python run.py        
 
@@ -222,6 +222,6 @@ jobs:
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          wecover "GithubTrending_javascript_jitsi-meet"
+          # wecover "GithubTrending_javascript_jitsi-meet"
           export jpg="figures/javascript_9.png"
           python run.py        
