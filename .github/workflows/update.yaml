@@ -17,6 +17,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
       - name: Get install
         run: |
+          pip install -r requirements.txt
           pip install bilibili-api-python
       - name: Update config
         run: |
