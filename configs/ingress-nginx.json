@@ -1,0 +1,10 @@
+{
+    "full_name": "kubernetes/ingress-nginx",
+    "name": "ingress-nginx",
+    "html_url": "https://github.com/kubernetes/ingress-nginx",
+    "stargazers_count": 13476,
+    "language": "Go",
+    "description": "Ingress-NGINX Controller for Kubernetes",
+    "date_range": "4 stars today",
+    "watchers_count": -1
+}

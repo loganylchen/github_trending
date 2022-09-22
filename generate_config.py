@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
+# In[8]:
 
 
 from starcli.layouts import print_results, shorten_count
@@ -28,6 +28,7 @@ import docker
 import shutil
 import glob
 import random
+from PIL import Image, ImageFont, ImageDraw
 
 
 
@@ -36,7 +37,7 @@ CACHED_RESULT_PATH = xdg_cache_home() / "starcli.json"
 CACHE_EXPIRATION = 1  # Minutes
 
 
-# In[7]:
+# In[2]:
 
 
 def _cli(
@@ -132,7 +133,7 @@ def _cli(
     return repos
 
 
-# In[8]:
+# In[3]:
 
 
 def _now():
@@ -142,7 +143,7 @@ def _month_ago():
     return (datetime.now()-timedelta(days =30)).strftime("%Y-%m-%d")
 
 
-# In[9]:
+# In[4]:
 
 
 def _select_music_as_background():
@@ -152,7 +153,25 @@ def _select_music_as_background():
     return os.path.basename(random_music).replace('.mp3', '')
 
 
-# In[37]:
+# In[ ]:
+
+
+def generate_show_photo(image, lang, name, n):
+    lang = 'Python'
+    import matplotlib.pyplot as plt
+    image = Image.open('background.png')
+    title_font = ImageFont.truetype('Pacifico.ttf', 100)
+    title_text = f'''{_now()}
+Github Trending 
+{lang}:{n}
+{name}'''
+    image_editable = ImageDraw.Draw(image)
+    image_editable.text((15, 315), title_text,
+                        (237, 230, 211), font=title_font)
+    image.save(f'{lang}_{n}.png')
+
+
+# In[5]:
 
 
 def _generate_ga_config(info_list,  lang):
@@ -165,6 +184,7 @@ on:
 jobs:
     '''
     for i, j in enumerate(info_list):
+        generate_show_photo('background.png', lang, j["name"], i)
         config = f'configs/{j["name"]}.json'
         with open(config, 'w') as f:
             json.dump(j, f, indent=4)
@@ -188,19 +208,20 @@ jobs:
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           wecover "GithubTrending_{lang}_{j['name']}"
-          export jpg="wecover_GithubTrending_{lang}_{j['name']}.jpg"
+          export jpg="{lang}_{i}.png"
           python run.py        
 '''
 
     return default_config
 
 
-# In[38]:
+# In[6]:
 
 
 def main(lang):
     info_list = _cli(lang)
     today = _now()
+    
     with open(f'.github/workflows/github_trending_{lang}.yaml', 'w') as f:
         f.write(_generate_ga_config(info_list,  lang))
    
