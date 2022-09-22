@@ -2,16 +2,9 @@
     "full_name": "hashicorp/vault",
     "name": "vault",
     "html_url": "https://github.com/hashicorp/vault",
-<<<<<<< HEAD
-    "stargazers_count": 25655,
+    "stargazers_count": 25668,
     "language": "Go",
     "description": "A tool for secrets management, encryption as a service, and privileged access management",
-    "date_range": "13 stars today",
-=======
-    "stargazers_count": 25512,
-    "language": "Go",
-    "description": "A tool for secrets management, encryption as a service, and privileged access management",
-    "date_range": "87 stars today",
->>>>>>> origin/main
+    "date_range": "19 stars today",
     "watchers_count": -1
 }

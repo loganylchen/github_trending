@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
+# In[1]:
 
 
 from starcli.layouts import print_results, shorten_count
@@ -153,12 +153,11 @@ def _select_music_as_background():
     return os.path.basename(random_music).replace('.mp3', '')
 
 
-# In[ ]:
+# In[5]:
 
 
 def generate_show_photo(image, lang, name, n):
-    lang = 'Python'
-    import matplotlib.pyplot as plt
+ 
     image = Image.open('background.png')
     title_font = ImageFont.truetype('Pacifico.ttf', 100)
     title_text = f'''{_now()}
@@ -168,10 +167,10 @@ Github Trending
     image_editable = ImageDraw.Draw(image)
     image_editable.text((15, 315), title_text,
                         (237, 230, 211), font=title_font)
-    image.save(f'{lang}_{n}.png')
+    image.save(f'figures/{lang}_{n}.png')
 
 
-# In[5]:
+# In[6]:
 
 
 def _generate_ga_config(info_list,  lang):
@@ -208,14 +207,14 @@ jobs:
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
           wecover "GithubTrending_{lang}_{j['name']}"
-          export jpg="{lang}_{i}.png"
+          export jpg="figures/{lang}_{i}.png"
           python run.py        
 '''
 
     return default_config
 
 
-# In[6]:
+# In[7]:
 
 
 def main(lang):
@@ -227,7 +226,7 @@ def main(lang):
    
 
 
-# In[39]:
+# In[8]:
 
 
 if __name__ == '__main__':
@@ -235,15 +234,12 @@ if __name__ == '__main__':
     main('java')
     main('javascript')
     main('go')
-    main('julia')
+    main('R')
     main('c')
+    main('Perl')
 
 
-# In[32]:
-
-
-
-
+# 
 
 # In[ ]:
 

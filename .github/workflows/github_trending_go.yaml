@@ -2,11 +2,7 @@
 name: github_trending_go
 on:
   schedule:
-<<<<<<< HEAD
-    - cron: "0 14 * * *"
-=======
     - cron: "0 5 * * *"
->>>>>>> origin/main
   workflow_dispatch:
 jobs:
     
@@ -23,17 +19,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/hugo.json
+          export json_file=configs/minio.json
           export number=0
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_hugo"
-          export jpg="go_0.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_minio"
+          export jpg="figures/go_0.png"
           python run.py        
 
   go_github_trending_1:
@@ -49,21 +41,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/caddy.json
-=======
-          export json_file=configs/frp.json
->>>>>>> origin/main
+          export json_file=configs/terraform.json
           export number=1
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_caddy"
-          export jpg="go_1.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_terraform"
+          export jpg="figures/go_1.png"
           python run.py        
 
   go_github_trending_2:
@@ -79,21 +63,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
           export json_file=configs/vault.json
-=======
-          export json_file=configs/prometheus.json
->>>>>>> origin/main
           export number=2
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
           wecover "GithubTrending_go_vault"
-          export jpg="go_2.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          export jpg="figures/go_2.png"
           python run.py        
 
   go_github_trending_3:
@@ -109,21 +85,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/consul.json
-=======
-          export json_file=configs/go-ethereum.json
->>>>>>> origin/main
+          export json_file=configs/learngo.json
           export number=3
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_consul"
-          export jpg="go_3.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_learngo"
+          export jpg="figures/go_3.png"
           python run.py        
 
   go_github_trending_4:
@@ -139,21 +107,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/kit.json
-=======
-          export json_file=configs/istio.json
->>>>>>> origin/main
+          export json_file=configs/goproxy.json
           export number=4
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_kit"
-          export jpg="go_4.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_goproxy"
+          export jpg="figures/go_4.png"
           python run.py        
 
   go_github_trending_5:
@@ -169,21 +129,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/charts.json
-=======
-          export json_file=configs/gorm.json
->>>>>>> origin/main
+          export json_file=configs/nomad.json
           export number=5
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_charts"
-          export jpg="go_5.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_nomad"
+          export jpg="figures/go_5.png"
           python run.py        
 
   go_github_trending_6:
@@ -199,21 +151,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/learngo.json
-=======
-          export json_file=configs/vault.json
->>>>>>> origin/main
+          export json_file=configs/telegraf.json
           export number=6
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_learngo"
-          export jpg="go_6.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_telegraf"
+          export jpg="figures/go_6.png"
           python run.py        
 
   go_github_trending_7:
@@ -229,21 +173,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/grpc-gateway.json
-=======
-          export json_file=configs/micro.json
->>>>>>> origin/main
+          export json_file=configs/beats.json
           export number=7
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_grpc-gateway"
-          export jpg="go_7.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_beats"
+          export jpg="figures/go_7.png"
           python run.py        
 
   go_github_trending_8:
@@ -259,21 +195,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/kubectx.json
-=======
-          export json_file=configs/dolt.json
->>>>>>> origin/main
+          export json_file=configs/rqlite.json
           export number=8
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_kubectx"
-          export jpg="go_8.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_rqlite"
+          export jpg="figures/go_8.png"
           python run.py        
 
   go_github_trending_9:
@@ -289,19 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-<<<<<<< HEAD
-          export json_file=configs/ingress-nginx.json
-=======
-          export json_file=configs/cilium.json
->>>>>>> origin/main
+          export json_file=configs/migrate.json
           export number=9
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-<<<<<<< HEAD
-          wecover "GithubTrending_go_ingress-nginx"
-          export jpg="go_9.png"
-=======
-          export jpg=cover.jpeg
->>>>>>> origin/main
+          wecover "GithubTrending_go_migrate"
+          export jpg="figures/go_9.png"
           python run.py        

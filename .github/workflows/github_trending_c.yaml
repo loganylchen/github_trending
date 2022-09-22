@@ -19,12 +19,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/obs-studio.json
+          export json_file=configs/linux.json
           export number=0
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_linux"
+          export jpg="figures/c_0.png"
           python run.py        
 
   c_github_trending_1:
@@ -45,7 +46,8 @@ jobs:
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_Ventoy"
+          export jpg="figures/c_1.png"
           python run.py        
 
   c_github_trending_2:
@@ -61,12 +63,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/php-src.json
+          export json_file=configs/wrk.json
           export number=2
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_wrk"
+          export jpg="figures/c_2.png"
           python run.py        
 
   c_github_trending_3:
@@ -82,12 +85,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/curl.json
+          export json_file=configs/FFmpeg.json
           export number=3
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_FFmpeg"
+          export jpg="figures/c_3.png"
           python run.py        
 
   c_github_trending_4:
@@ -103,12 +107,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/libuv.json
+          export json_file=configs/curl.json
           export number=4
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_curl"
+          export jpg="figures/c_4.png"
           python run.py        
 
   c_github_trending_5:
@@ -124,12 +129,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/open-gpu-kernel-modules.json
+          export json_file=configs/emscripten.json
           export number=5
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_emscripten"
+          export jpg="figures/c_5.png"
           python run.py        
 
   c_github_trending_6:
@@ -145,12 +151,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/skynet.json
+          export json_file=configs/libuv.json
           export number=6
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_libuv"
+          export jpg="figures/c_6.png"
           python run.py        
 
   c_github_trending_7:
@@ -166,12 +173,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/reactos.json
+          export json_file=configs/qmk_firmware.json
           export number=7
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_qmk_firmware"
+          export jpg="figures/c_7.png"
           python run.py        
 
   c_github_trending_8:
@@ -187,12 +195,13 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Tinyhttpd.json
+          export json_file=configs/systemd.json
           export number=8
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_systemd"
+          export jpg="figures/c_8.png"
           python run.py        
 
   c_github_trending_9:
@@ -208,10 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/react-native-code-push.json
+          export json_file=configs/cosmopolitan.json
           export number=9
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          export jpg=cover.jpeg
+          wecover "GithubTrending_c_cosmopolitan"
+          export jpg="figures/c_9.png"
           python run.py        

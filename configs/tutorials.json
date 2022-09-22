@@ -2,16 +2,9 @@
     "full_name": "eugenp/tutorials",
     "name": "tutorials",
     "html_url": "https://github.com/eugenp/tutorials",
-<<<<<<< HEAD
     "stargazers_count": 31990,
     "language": "Java",
     "description": "Just Announced - \"Learn Spring Security OAuth\":",
     "date_range": "14 stars today",
-=======
-    "stargazers_count": 31829,
-    "language": "Java",
-    "description": "Just Announced - \"Learn Spring Security OAuth\":",
-    "date_range": "35 stars today",
->>>>>>> origin/main
     "watchers_count": -1
 }
