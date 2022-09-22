@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[10]:
 
 
 from starcli.layouts import print_results, shorten_count
@@ -37,7 +37,7 @@ CACHED_RESULT_PATH = xdg_cache_home() / "starcli.json"
 CACHE_EXPIRATION = 1  # Minutes
 
 
-# In[2]:
+# In[11]:
 
 
 def _cli(
@@ -133,7 +133,7 @@ def _cli(
     return repos
 
 
-# In[3]:
+# In[12]:
 
 
 def _now():
@@ -143,7 +143,7 @@ def _month_ago():
     return (datetime.now()-timedelta(days =30)).strftime("%Y-%m-%d")
 
 
-# In[4]:
+# In[13]:
 
 
 def _select_music_as_background():
@@ -153,7 +153,7 @@ def _select_music_as_background():
     return os.path.basename(random_music).replace('.mp3', '')
 
 
-# In[5]:
+# In[14]:
 
 
 def generate_show_photo(image, lang, name, n):
@@ -170,7 +170,7 @@ Github Trending
     image.save(f'figures/{lang}_{n}.png')
 
 
-# In[6]:
+# In[15]:
 
 
 def _generate_ga_config(info_list,  lang):
@@ -214,7 +214,7 @@ jobs:
     return default_config
 
 
-# In[7]:
+# In[16]:
 
 
 def main(lang):
@@ -226,7 +226,7 @@ def main(lang):
    
 
 
-# In[8]:
+# In[18]:
 
 
 if __name__ == '__main__':
@@ -236,7 +236,6 @@ if __name__ == '__main__':
     main('go')
     main('R')
     main('c')
-    main('Perl')
 
 
 # 

@@ -21,7 +21,8 @@ jobs:
           pip install bilibili-api-python
       - name: Update config
         run: |
-          python generate_config.py
+          chmod +x ./pre_push.bash
+          ./pre_push.bash
       - name: push to the remote
         run: |
           git config --global user.name "github-actions[bot]"
