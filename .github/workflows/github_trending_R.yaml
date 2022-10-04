@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/awesome-R.json
+          export json_file=configs/shiny.json
           export number=1
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_R_awesome-R"
+          # wecover "GithubTrending_R_shiny"
           export jpg="figures/R_1.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/blogdown.json
+          export json_file=configs/seurat.json
           export number=9
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_R_blogdown"
+          # wecover "GithubTrending_R_seurat"
           export jpg="figures/R_9.png"
           python run.py        

@@ -1,0 +1,10 @@
+{
+    "full_name": "grpc/grpc-java",
+    "name": "grpc-java",
+    "html_url": "https://github.com/grpc/grpc-java",
+    "stargazers_count": 10063,
+    "language": "Java",
+    "description": "The Java gRPC implementation. HTTP/2 based RPC",
+    "date_range": "4 stars today",
+    "watchers_count": -1
+}
