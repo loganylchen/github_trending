@@ -2,9 +2,9 @@
     "full_name": "hashicorp/nomad",
     "name": "nomad",
     "html_url": "https://github.com/hashicorp/nomad",
-    "stargazers_count": 12281,
+    "stargazers_count": 12324,
     "language": "Go",
     "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.",
-    "date_range": "5 stars today",
+    "date_range": "4 stars today",
     "watchers_count": -1
 }

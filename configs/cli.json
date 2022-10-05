@@ -1,10 +1,10 @@
 {
-    "full_name": "urfave/cli",
+    "full_name": "cli/cli",
     "name": "cli",
-    "html_url": "https://github.com/urfave/cli",
-    "stargazers_count": 18920,
+    "html_url": "https://github.com/cli/cli",
+    "stargazers_count": 30023,
     "language": "Go",
-    "description": "A simple, fast, and fun package for building command line apps in Go",
-    "date_range": "8 stars today",
+    "description": "GitHub\u2019s official command line tool",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }
