@@ -1,0 +1,10 @@
+{
+    "full_name": "bridgecrewio/checkov",
+    "name": "checkov",
+    "html_url": "https://github.com/bridgecrewio/checkov",
+    "stargazers_count": 4735,
+    "language": "Python",
+    "description": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
+    "date_range": "2 stars today",
+    "watchers_count": -1
+}

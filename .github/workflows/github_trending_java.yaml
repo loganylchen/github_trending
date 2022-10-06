@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/java-design-patterns.json
+          export json_file=configs/selenium.json
           export number=0
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_java-design-patterns"
+          # wecover "GithubTrending_java_selenium"
           export jpg="figures/java_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/spring-boot-examples.json
+          export json_file=configs/mockito.json
           export number=1
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_spring-boot-examples"
+          # wecover "GithubTrending_java_mockito"
           export jpg="figures/java_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/selenium.json
+          export json_file=configs/Grasscutter.json
           export number=2
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_selenium"
+          # wecover "GithubTrending_java_Grasscutter"
           export jpg="figures/java_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/keycloak.json
+          export json_file=configs/quarkus.json
           export number=3
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_keycloak"
+          # wecover "GithubTrending_java_quarkus"
           export jpg="figures/java_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/jib.json
+          export json_file=configs/dropwizard.json
           export number=4
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_jib"
+          # wecover "GithubTrending_java_dropwizard"
           export jpg="figures/java_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Grasscutter.json
+          export json_file=configs/testcontainers-java.json
           export number=5
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_Grasscutter"
+          # wecover "GithubTrending_java_testcontainers-java"
           export jpg="figures/java_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/questdb.json
+          export json_file=configs/react-native-video.json
           export number=6
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_questdb"
+          # wecover "GithubTrending_java_react-native-video"
           export jpg="figures/java_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/DSA-Bootcamp-Java.json
+          export json_file=configs/graylog2-server.json
           export number=7
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_DSA-Bootcamp-Java"
+          # wecover "GithubTrending_java_graylog2-server"
           export jpg="figures/java_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/dropwizard.json
+          export json_file=configs/ksql.json
           export number=8
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_dropwizard"
+          # wecover "GithubTrending_java_ksql"
           export jpg="figures/java_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/testcontainers-java.json
+          export json_file=configs/hazelcast.json
           export number=9
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_testcontainers-java"
+          # wecover "GithubTrending_java_hazelcast"
           export jpg="figures/java_9.png"
           python run.py        
