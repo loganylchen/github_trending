@@ -1,0 +1,10 @@
+{
+    "full_name": "kubernetes/dashboard",
+    "name": "dashboard",
+    "html_url": "https://github.com/kubernetes/dashboard",
+    "stargazers_count": 11722,
+    "language": "Go",
+    "description": "General-purpose web UI for Kubernetes clusters",
+    "date_range": "5 stars today",
+    "watchers_count": -1
+}

@@ -2,9 +2,9 @@
     "full_name": "grpc-ecosystem/grpc-gateway",
     "name": "grpc-gateway",
     "html_url": "https://github.com/grpc-ecosystem/grpc-gateway",
-    "stargazers_count": 14183,
+    "stargazers_count": 14252,
     "language": "Go",
     "description": "gRPC to JSON proxy generator following the gRPC HTTP spec",
-    "date_range": "11 stars today",
+    "date_range": "6 stars today",
     "watchers_count": -1
 }

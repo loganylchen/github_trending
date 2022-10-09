@@ -1,0 +1,10 @@
+{
+    "full_name": "argoproj/argo-cd",
+    "name": "argo-cd",
+    "html_url": "https://github.com/argoproj/argo-cd",
+    "stargazers_count": 10843,
+    "language": "Go",
+    "description": "Declarative continuous deployment for Kubernetes.",
+    "date_range": "9 stars today",
+    "watchers_count": -1
+}

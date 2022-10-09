@@ -1,0 +1,10 @@
+{
+    "full_name": "checkstyle/checkstyle",
+    "name": "checkstyle",
+    "html_url": "https://github.com/checkstyle/checkstyle",
+    "stargazers_count": 7314,
+    "language": "Java",
+    "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+    "date_range": "3 stars today",
+    "watchers_count": -1
+}
