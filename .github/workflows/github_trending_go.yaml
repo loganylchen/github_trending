@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/frp.json
+          export json_file=configs/prometheus.json
           export number=1
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_frp"
+          # wecover "GithubTrending_go_prometheus"
           export jpg="figures/go_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/go-zero.json
+          export json_file=configs/istio.json
           export number=2
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_go-zero"
+          # wecover "GithubTrending_go_istio"
           export jpg="figures/go_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/learngo.json
+          export json_file=configs/the-way-to-go_ZH_CN.json
           export number=3
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_learngo"
+          # wecover "GithubTrending_go_the-way-to-go_ZH_CN"
           export jpg="figures/go_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/gin-vue-admin.json
+          export json_file=configs/go-zero.json
           export number=4
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_gin-vue-admin"
+          # wecover "GithubTrending_go_go-zero"
           export jpg="figures/go_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/nomad.json
+          export json_file=configs/kratos.json
           export number=5
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_nomad"
+          # wecover "GithubTrending_go_kratos"
           export jpg="figures/go_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/containerd.json
+          export json_file=configs/k9s.json
           export number=6
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_containerd"
+          # wecover "GithubTrending_go_k9s"
           export jpg="figures/go_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/kubesphere.json
+          export json_file=configs/websocket.json
           export number=7
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_kubesphere"
+          # wecover "GithubTrending_go_websocket"
           export jpg="figures/go_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/cron.json
+          export json_file=configs/learngo.json
           export number=8
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_cron"
+          # wecover "GithubTrending_go_learngo"
           export jpg="figures/go_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/alist.json
+          export json_file=configs/redis.json
           export number=9
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_alist"
+          # wecover "GithubTrending_go_redis"
           export jpg="figures/go_9.png"
           python run.py        

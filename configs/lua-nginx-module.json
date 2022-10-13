@@ -1,0 +1,10 @@
+{
+    "full_name": "openresty/lua-nginx-module",
+    "name": "lua-nginx-module",
+    "html_url": "https://github.com/openresty/lua-nginx-module",
+    "stargazers_count": 10288,
+    "language": "C",
+    "description": "Embed the Power of Lua into NGINX HTTP servers",
+    "date_range": "2 stars today",
+    "watchers_count": -1
+}
