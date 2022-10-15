@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/java-design-patterns.json
+          export json_file=configs/advanced-java.json
           export number=1
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_java-design-patterns"
+          # wecover "GithubTrending_java_advanced-java"
           export jpg="figures/java_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/advanced-java.json
+          export json_file=configs/spring-boot.json
           export number=2
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_advanced-java"
+          # wecover "GithubTrending_java_spring-boot"
           export jpg="figures/java_2.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/nacos.json
+          export json_file=configs/easyexcel.json
           export number=5
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_nacos"
+          # wecover "GithubTrending_java_easyexcel"
           export jpg="figures/java_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/halo.json
+          export json_file=configs/nacos.json
           export number=6
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_halo"
+          # wecover "GithubTrending_java_nacos"
           export jpg="figures/java_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/xxl-job.json
+          export json_file=configs/redisson.json
           export number=7
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_xxl-job"
+          # wecover "GithubTrending_java_redisson"
           export jpg="figures/java_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Sentinel.json
+          export json_file=configs/ExoPlayer.json
           export number=8
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_Sentinel"
+          # wecover "GithubTrending_java_ExoPlayer"
           export jpg="figures/java_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/leetcode.json
+          export json_file=configs/presto.json
           export number=9
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_leetcode"
+          # wecover "GithubTrending_java_presto"
           export jpg="figures/java_9.png"
           python run.py        
