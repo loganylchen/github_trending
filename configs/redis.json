@@ -2,9 +2,9 @@
     "full_name": "redis/redis",
     "name": "redis",
     "html_url": "https://github.com/redis/redis",
-    "stargazers_count": 57152,
+    "stargazers_count": 57236,
     "language": "C",
     "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.",
-    "date_range": "19 stars today",
+    "date_range": "18 stars today",
     "watchers_count": -1
 }

@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/linux.json
+          export json_file=configs/redis.json
           export number=0
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_linux"
+          # wecover "GithubTrending_c_redis"
           export jpg="figures/c_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/emscripten.json
+          export json_file=configs/Tasmota.json
           export number=1
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_emscripten"
+          # wecover "GithubTrending_c_Tasmota"
           export jpg="figures/c_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/libuv.json
+          export json_file=configs/hashcat.json
           export number=2
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_libuv"
+          # wecover "GithubTrending_c_hashcat"
           export jpg="figures/c_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/TDengine.json
+          export json_file=configs/lvgl.json
           export number=3
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_TDengine"
+          # wecover "GithubTrending_c_lvgl"
           export jpg="figures/c_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/bcc.json
+          export json_file=configs/libsodium.json
           export number=4
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_bcc"
+          # wecover "GithubTrending_c_libsodium"
           export jpg="figures/c_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/nginx-rtmp-module.json
+          export json_file=configs/ImageMagick.json
           export number=5
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_nginx-rtmp-module"
+          # wecover "GithubTrending_c_ImageMagick"
           export jpg="figures/c_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/postgres.json
+          export json_file=configs/RetroArch.json
           export number=6
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_postgres"
+          # wecover "GithubTrending_c_RetroArch"
           export jpg="figures/c_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/systemd.json
+          export json_file=configs/vlmcsd.json
           export number=7
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_systemd"
+          # wecover "GithubTrending_c_vlmcsd"
           export jpg="figures/c_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/sanitizers.json
+          export json_file=configs/librdkafka.json
           export number=8
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_sanitizers"
+          # wecover "GithubTrending_c_librdkafka"
           export jpg="figures/c_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ExplorerPatcher.json
+          export json_file=configs/klipper.json
           export number=9
           export language=c
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_c_ExplorerPatcher"
+          # wecover "GithubTrending_c_klipper"
           export jpg="figures/c_9.png"
           python run.py        
