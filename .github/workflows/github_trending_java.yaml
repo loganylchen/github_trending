@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/elasticsearch.json
+          export json_file=configs/GitHub-Chinese-Top-Charts.json
           export number=0
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_elasticsearch"
+          # wecover "GithubTrending_java_GitHub-Chinese-Top-Charts"
           export jpg="figures/java_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/MPAndroidChart.json
+          export json_file=configs/canal.json
           export number=1
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_MPAndroidChart"
+          # wecover "GithubTrending_java_canal"
           export jpg="figures/java_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/toBeTopJavaer.json
+          export json_file=configs/spring-cloud-alibaba.json
           export number=2
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_toBeTopJavaer"
+          # wecover "GithubTrending_java_spring-cloud-alibaba"
           export jpg="figures/java_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/flink.json
+          export json_file=configs/BaseRecyclerViewAdapterHelper.json
           export number=3
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_flink"
+          # wecover "GithubTrending_java_BaseRecyclerViewAdapterHelper"
           export jpg="figures/java_3.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/mockito.json
+          export json_file=configs/keycloak.json
           export number=5
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_mockito"
+          # wecover "GithubTrending_java_keycloak"
           export jpg="figures/java_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/antlr4.json
+          export json_file=configs/DataX.json
           export number=6
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_antlr4"
+          # wecover "GithubTrending_java_DataX"
           export jpg="figures/java_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/hadoop.json
+          export json_file=configs/lombok.json
           export number=7
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_hadoop"
+          # wecover "GithubTrending_java_lombok"
           export jpg="figures/java_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ip2region.json
+          export json_file=configs/quarkus.json
           export number=8
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_ip2region"
+          # wecover "GithubTrending_java_quarkus"
           export jpg="figures/java_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/DSA-Bootcamp-Java.json
+          export json_file=configs/jedis.json
           export number=9
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_DSA-Bootcamp-Java"
+          # wecover "GithubTrending_java_jedis"
           export jpg="figures/java_9.png"
           python run.py        

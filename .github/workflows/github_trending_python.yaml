@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/openpilot.json
+          export json_file=configs/scikit-learn.json
           export number=0
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_openpilot"
+          # wecover "GithubTrending_python_scikit-learn"
           export jpg="figures/python_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/devops-exercises.json
+          export json_file=configs/PayloadsAllTheThings.json
           export number=1
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_devops-exercises"
+          # wecover "GithubTrending_python_PayloadsAllTheThings"
           export jpg="figures/python_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/pytorch-image-models.json
+          export json_file=configs/openpilot.json
           export number=2
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_pytorch-image-models"
+          # wecover "GithubTrending_python_openpilot"
           export jpg="figures/python_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/mypy.json
+          export json_file=configs/devops-exercises.json
           export number=3
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_mypy"
+          # wecover "GithubTrending_python_devops-exercises"
           export jpg="figures/python_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/deep-learning-for-image-processing.json
+          export json_file=configs/rasa.json
           export number=4
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_deep-learning-for-image-processing"
+          # wecover "GithubTrending_python_rasa"
           export jpg="figures/python_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/netbox.json
+          export json_file=configs/deep-learning-for-image-processing.json
           export number=5
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_netbox"
+          # wecover "GithubTrending_python_deep-learning-for-image-processing"
           export jpg="figures/python_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/english-words.json
+          export json_file=configs/ParlAI.json
           export number=6
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_english-words"
+          # wecover "GithubTrending_python_ParlAI"
           export jpg="figures/python_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/dbt-core.json
+          export json_file=configs/labelme.json
           export number=7
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_dbt-core"
+          # wecover "GithubTrending_python_labelme"
           export jpg="figures/python_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/dagster.json
+          export json_file=configs/PaddleDetection.json
           export number=8
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_dagster"
+          # wecover "GithubTrending_python_PaddleDetection"
           export jpg="figures/python_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ColossalAI.json
+          export json_file=configs/OctoPrint.json
           export number=9
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_ColossalAI"
+          # wecover "GithubTrending_python_OctoPrint"
           export jpg="figures/python_9.png"
           python run.py        
