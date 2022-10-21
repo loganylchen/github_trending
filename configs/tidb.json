@@ -2,9 +2,9 @@
     "full_name": "pingcap/tidb",
     "name": "tidb",
     "html_url": "https://github.com/pingcap/tidb",
-    "stargazers_count": 32598,
+    "stargazers_count": 32634,
     "language": "Go",
     "description": "TiDB is an open-source, cloud-native, distributed, MySQL-Compatible database for elastic scale and real-time analytics. Try free: https://tidbcloud.com/free-trial",
-    "date_range": "11 stars today",
+    "date_range": "20 stars today",
     "watchers_count": -1
 }

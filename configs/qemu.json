@@ -2,9 +2,9 @@
     "full_name": "qemu/qemu",
     "name": "qemu",
     "html_url": "https://github.com/qemu/qemu",
-    "stargazers_count": 6742,
+    "stargazers_count": 6857,
     "language": "C",
     "description": "Official QEMU mirror. Please see http://wiki.qemu.org/Contribute/SubmitAPatch for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.",
-    "date_range": "3 stars today",
+    "date_range": "8 stars today",
     "watchers_count": -1
 }

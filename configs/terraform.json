@@ -2,9 +2,9 @@
     "full_name": "hashicorp/terraform",
     "name": "terraform",
     "html_url": "https://github.com/hashicorp/terraform",
-    "stargazers_count": 34519,
+    "stargazers_count": 34709,
     "language": "Go",
     "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-    "date_range": "76 stars today",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }
