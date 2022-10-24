@@ -2,9 +2,9 @@
     "full_name": "python-poetry/poetry",
     "name": "poetry",
     "html_url": "https://github.com/python-poetry/poetry",
-    "stargazers_count": 21444,
+    "stargazers_count": 22237,
     "language": "Python",
-    "description": "Python dependency management and packaging made easy.",
-    "date_range": "101 stars today",
+    "description": "Python packaging and dependency management made easy",
+    "date_range": "27 stars today",
     "watchers_count": -1
 }

@@ -2,9 +2,9 @@
     "full_name": "elastic/beats",
     "name": "beats",
     "html_url": "https://github.com/elastic/beats",
-    "stargazers_count": 11275,
+    "stargazers_count": 11281,
     "language": "Go",
     "description": "\ud83d\udc20 Beats - Lightweight shippers for Elasticsearch & Logstash",
-    "date_range": "1 stars today",
+    "date_range": "5 stars today",
     "watchers_count": -1
 }

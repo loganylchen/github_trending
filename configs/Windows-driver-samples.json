@@ -1,0 +1,10 @@
+{
+    "full_name": "microsoft/Windows-driver-samples",
+    "name": "Windows-driver-samples",
+    "html_url": "https://github.com/microsoft/Windows-driver-samples",
+    "stargazers_count": 5514,
+    "language": "C",
+    "description": "This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.",
+    "date_range": "3 stars today",
+    "watchers_count": -1
+}

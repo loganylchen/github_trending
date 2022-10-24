@@ -102,7 +102,7 @@ Stars today: {info['date_range']}
             ''',
         source='Github Trending',
         thread_pool_workers=5,
-        cover='cover.jpeg'
+        cover=os.environ['jpg']
     )
 
 

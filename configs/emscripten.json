@@ -2,7 +2,7 @@
     "full_name": "emscripten-core/emscripten",
     "name": "emscripten",
     "html_url": "https://github.com/emscripten-core/emscripten",
-    "stargazers_count": 22724,
+    "stargazers_count": 22798,
     "language": "C",
     "description": "Emscripten: An LLVM-to-WebAssembly Compiler",
     "date_range": "5 stars today",

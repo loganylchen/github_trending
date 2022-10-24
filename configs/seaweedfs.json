@@ -1,0 +1,10 @@
+{
+    "full_name": "seaweedfs/seaweedfs",
+    "name": "seaweedfs",
+    "html_url": "https://github.com/seaweedfs/seaweedfs",
+    "stargazers_count": 15635,
+    "language": "Go",
+    "description": "SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.",
+    "date_range": "18 stars today",
+    "watchers_count": -1
+}

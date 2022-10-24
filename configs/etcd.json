@@ -1,0 +1,10 @@
+{
+    "full_name": "etcd-io/etcd",
+    "name": "etcd",
+    "html_url": "https://github.com/etcd-io/etcd",
+    "stargazers_count": 41482,
+    "language": "Go",
+    "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+    "date_range": "17 stars today",
+    "watchers_count": -1
+}

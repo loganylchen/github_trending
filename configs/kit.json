@@ -1,10 +1,10 @@
 {
-    "full_name": "go-kit/kit",
+    "full_name": "sveltejs/kit",
     "name": "kit",
-    "html_url": "https://github.com/go-kit/kit",
-    "stargazers_count": 23850,
-    "language": "Go",
-    "description": "A standard library for microservices.",
-    "date_range": "10 stars today",
+    "html_url": "https://github.com/sveltejs/kit",
+    "stargazers_count": 10636,
+    "language": "JavaScript",
+    "description": "The fastest way to build Svelte apps",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }

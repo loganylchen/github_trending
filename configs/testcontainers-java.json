@@ -1,0 +1,10 @@
+{
+    "full_name": "testcontainers/testcontainers-java",
+    "name": "testcontainers-java",
+    "html_url": "https://github.com/testcontainers/testcontainers-java",
+    "stargazers_count": 6385,
+    "language": "Java",
+    "description": "Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.",
+    "date_range": "4 stars today",
+    "watchers_count": -1
+}
