@@ -204,9 +204,14 @@ on:
   workflow_dispatch:
 jobs:
     '''
+    time = datetime.now()
     for i, j in enumerate(info_list):
         files = glob.glob('images/*')
-        generate_show_photo( lang, j["name"], i,random.choice(files))
+        if f'images/{time.year}-{time.month}-{time.day}.jpg' in files:
+            photo = f'images/{time.year}-{time.month}-{time.day}.jpg'
+        else:
+            photo = random.choice(files)
+        generate_show_photo( lang, j["name"], i,photo)
         config = f'configs/{j["name"]}.json'
         with open(config, 'w') as f:
             json.dump(j, f, indent=4)
@@ -262,7 +267,11 @@ if __name__ == '__main__':
     main('c')
 
 
-# 
+# In[ ]:
+
+
+
+
 
 # In[16]:
 

@@ -2,7 +2,7 @@
     "full_name": "rclone/rclone",
     "name": "rclone",
     "html_url": "https://github.com/rclone/rclone",
-    "stargazers_count": 35123,
+    "stargazers_count": 35129,
     "language": "Go",
     "description": "\"rsync for cloud storage\" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files",
     "date_range": "23 stars today",
