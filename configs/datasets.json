@@ -1,10 +1,10 @@
 {
-    "full_name": "huggingface/datasets",
+    "full_name": "selva86/datasets",
     "name": "datasets",
-    "html_url": "https://github.com/huggingface/datasets",
-    "stargazers_count": 14519,
-    "language": "Python",
-    "description": "\ud83e\udd17 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools",
-    "date_range": "41 stars today",
+    "html_url": "https://github.com/selva86/datasets",
+    "stargazers_count": 464,
+    "language": "R",
+    "description": "A collection of datasets of ML problem solving",
+    "date_range": "2 stars today",
     "watchers_count": -1
 }

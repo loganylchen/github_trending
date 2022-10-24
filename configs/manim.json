@@ -1,10 +1,10 @@
 {
-    "full_name": "ManimCommunity/manim",
+    "full_name": "3b1b/manim",
     "name": "manim",
-    "html_url": "https://github.com/ManimCommunity/manim",
-    "stargazers_count": 11460,
+    "html_url": "https://github.com/3b1b/manim",
+    "stargazers_count": 47630,
     "language": "Python",
-    "description": "A community-maintained Python framework for creating mathematical animations.",
-    "date_range": "17 stars today",
+    "description": "Animation engine for explanatory math videos",
+    "date_range": "26 stars today",
     "watchers_count": -1
 }

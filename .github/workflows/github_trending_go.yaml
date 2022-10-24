@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/go.json
+          export json_file=configs/kubernetes.json
           export number=0
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_go"
+          # wecover "GithubTrending_go_kubernetes"
           export jpg="figures/go_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/gin.json
+          export json_file=configs/frp.json
           export number=1
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_gin"
+          # wecover "GithubTrending_go_frp"
           export jpg="figures/go_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/minio.json
+          export json_file=configs/gogs.json
           export number=2
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_minio"
+          # wecover "GithubTrending_go_gogs"
           export jpg="figures/go_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/LeetCode-Go.json
+          export json_file=configs/rclone.json
           export number=3
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_LeetCode-Go"
+          # wecover "GithubTrending_go_rclone"
           export jpg="figures/go_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/helm.json
+          export json_file=configs/clash.json
           export number=4
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_helm"
+          # wecover "GithubTrending_go_clash"
           export jpg="figures/go_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/rancher.json
+          export json_file=configs/LeetCode-Go.json
           export number=5
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_rancher"
+          # wecover "GithubTrending_go_LeetCode-Go"
           export jpg="figures/go_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/kratos.json
+          export json_file=configs/croc.json
           export number=6
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_kratos"
+          # wecover "GithubTrending_go_croc"
           export jpg="figures/go_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/testify.json
+          export json_file=configs/v2ray-core.json
           export number=7
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_testify"
+          # wecover "GithubTrending_go_v2ray-core"
           export jpg="figures/go_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/pulumi.json
+          export json_file=configs/Cloudreve.json
           export number=8
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_pulumi"
+          # wecover "GithubTrending_go_Cloudreve"
           export jpg="figures/go_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ent.json
+          export json_file=configs/lantern.json
           export number=9
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_ent"
+          # wecover "GithubTrending_go_lantern"
           export jpg="figures/go_9.png"
           python run.py        
