@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/kubernetes.json
+          export json_file=configs/frp.json
           export number=0
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_kubernetes"
+          # wecover "GithubTrending_go_frp"
           export jpg="figures/go_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/frp.json
+          export json_file=configs/syncthing.json
           export number=1
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_frp"
+          # wecover "GithubTrending_go_syncthing"
           export jpg="figures/go_1.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/croc.json
+          export json_file=configs/photoprism.json
           export number=6
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_croc"
+          # wecover "GithubTrending_go_photoprism"
           export jpg="figures/go_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/v2ray-core.json
+          export json_file=configs/go-patterns.json
           export number=7
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_v2ray-core"
+          # wecover "GithubTrending_go_go-patterns"
           export jpg="figures/go_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Cloudreve.json
+          export json_file=configs/fyne.json
           export number=8
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_Cloudreve"
+          # wecover "GithubTrending_go_fyne"
           export jpg="figures/go_8.png"
           python run.py        
 
