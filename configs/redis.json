@@ -1,10 +1,10 @@
 {
-    "full_name": "redis/redis",
+    "full_name": "go-redis/redis",
     "name": "redis",
-    "html_url": "https://github.com/redis/redis",
-    "stargazers_count": 57236,
-    "language": "C",
-    "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.",
+    "html_url": "https://github.com/go-redis/redis",
+    "stargazers_count": 15698,
+    "language": "Go",
+    "description": "Type-safe Redis client for Golang",
     "date_range": "18 stars today",
     "watchers_count": -1
 }
