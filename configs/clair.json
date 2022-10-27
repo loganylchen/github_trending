@@ -1,0 +1,10 @@
+{
+    "full_name": "quay/clair",
+    "name": "clair",
+    "html_url": "https://github.com/quay/clair",
+    "stargazers_count": 9114,
+    "language": "Go",
+    "description": "Vulnerability Static Analysis for Containers",
+    "date_range": "8 stars today",
+    "watchers_count": -1
+}

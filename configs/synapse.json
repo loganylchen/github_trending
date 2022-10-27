@@ -2,9 +2,9 @@
     "full_name": "matrix-org/synapse",
     "name": "synapse",
     "html_url": "https://github.com/matrix-org/synapse",
-    "stargazers_count": 9983,
+    "stargazers_count": 10073,
     "language": "Python",
-    "description": "Synapse: Matrix homeserver written in Python 3/Twisted.",
-    "date_range": "5 stars today",
+    "description": "Synapse: Matrix homeserver written in Python/Twisted.",
+    "date_range": "8 stars today",
     "watchers_count": -1
 }
