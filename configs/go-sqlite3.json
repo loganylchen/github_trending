@@ -1,0 +1,10 @@
+{
+    "full_name": "mattn/go-sqlite3",
+    "name": "go-sqlite3",
+    "html_url": "https://github.com/mattn/go-sqlite3",
+    "stargazers_count": 6124,
+    "language": "C",
+    "description": "sqlite3 driver for go using database/sql",
+    "date_range": "2 stars today",
+    "watchers_count": -1
+}

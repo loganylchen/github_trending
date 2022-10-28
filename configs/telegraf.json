@@ -2,9 +2,9 @@
     "full_name": "influxdata/telegraf",
     "name": "telegraf",
     "html_url": "https://github.com/influxdata/telegraf",
-    "stargazers_count": 12088,
+    "stargazers_count": 12118,
     "language": "Go",
     "description": "The plugin-driven server agent for collecting & reporting metrics.",
-    "date_range": "6 stars today",
+    "date_range": "8 stars today",
     "watchers_count": -1
 }
