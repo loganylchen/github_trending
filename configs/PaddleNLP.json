@@ -2,9 +2,9 @@
     "full_name": "PaddlePaddle/PaddleNLP",
     "name": "PaddleNLP",
     "html_url": "https://github.com/PaddlePaddle/PaddleNLP",
-    "stargazers_count": 5994,
+    "stargazers_count": 6146,
     "language": "Python",
-    "description": "Easy-to-use and powerful NLP library with Awesome model zoo, supporting wide-range of NLP tasks from research to industrial applications, including Neural Search, Question Answering, Information Extraction and Sentiment Analysis end-to-end system.",
-    "date_range": "26 stars today",
+    "description": "\ud83d\udc51 Easy-to-use and powerful NLP library with \ud83e\udd17 Awesome model zoo, supporting wide-range of NLP tasks from research to industrial applications, including \ud83d\uddc2Text Classification, \ud83d\udd0d Neural Search, \u2753 Question Answering, \u2139\ufe0f Information Extraction, \ud83d\udcc4 Document Intelligence, \ud83d\udc8c Sentiment Analysis and \ud83d\uddbc Diffusion AICG system etc.",
+    "date_range": "44 stars today",
     "watchers_count": -1
 }

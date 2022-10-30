@@ -2,9 +2,9 @@
     "full_name": "ipfs/kubo",
     "name": "kubo",
     "html_url": "https://github.com/ipfs/kubo",
-    "stargazers_count": 14159,
+    "stargazers_count": 14282,
     "language": "Go",
-    "description": "IPFS implementation in Go",
-    "date_range": "11 stars today",
+    "description": "An IPFS implementation in Go",
+    "date_range": "6 stars today",
     "watchers_count": -1
 }
