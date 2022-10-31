@@ -2,9 +2,9 @@
     "full_name": "wch/r-source",
     "name": "r-source",
     "html_url": "https://github.com/wch/r-source",
-    "stargazers_count": 971,
+    "stargazers_count": 972,
     "language": "R",
     "description": "Read-only mirror of R source code from https://svn.r-project.org/R/, updated hourly. See the build instructions on the wiki page.",
-    "date_range": "0 stars today",
+    "date_range": "1 stars today",
     "watchers_count": -1
 }

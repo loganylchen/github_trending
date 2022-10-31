@@ -1,0 +1,10 @@
+{
+    "full_name": "docker/compose",
+    "name": "compose",
+    "html_url": "https://github.com/docker/compose",
+    "stargazers_count": 27582,
+    "language": "Go",
+    "description": "Define and run multi-container applications with Docker",
+    "date_range": "10 stars today",
+    "watchers_count": -1
+}
