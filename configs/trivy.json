@@ -2,9 +2,9 @@
     "full_name": "aquasecurity/trivy",
     "name": "trivy",
     "html_url": "https://github.com/aquasecurity/trivy",
-    "stargazers_count": 14383,
+    "stargazers_count": 14593,
     "language": "Go",
     "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-    "date_range": "19 stars today",
+    "date_range": "25 stars today",
     "watchers_count": -1
 }
