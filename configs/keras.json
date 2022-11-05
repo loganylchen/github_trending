@@ -1,10 +1,10 @@
 {
-    "full_name": "rstudio/keras",
+    "full_name": "keras-team/keras",
     "name": "keras",
-    "html_url": "https://github.com/rstudio/keras",
-    "stargazers_count": 760,
-    "language": "R",
-    "description": "R Interface to Keras",
-    "date_range": "0 stars today",
+    "html_url": "https://github.com/keras-team/keras",
+    "stargazers_count": 56535,
+    "language": "Python",
+    "description": "Deep Learning for humans",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }
