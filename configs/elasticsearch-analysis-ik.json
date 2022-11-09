@@ -2,9 +2,9 @@
     "full_name": "medcl/elasticsearch-analysis-ik",
     "name": "elasticsearch-analysis-ik",
     "html_url": "https://github.com/medcl/elasticsearch-analysis-ik",
-    "stargazers_count": 14426,
+    "stargazers_count": 14468,
     "language": "Java",
     "description": "The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary.",
-    "date_range": "6 stars today",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }

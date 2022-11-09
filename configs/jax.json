@@ -2,9 +2,9 @@
     "full_name": "google/jax",
     "name": "jax",
     "html_url": "https://github.com/google/jax",
-    "stargazers_count": 20665,
+    "stargazers_count": 20870,
     "language": "Python",
     "description": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more",
-    "date_range": "10 stars today",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }
