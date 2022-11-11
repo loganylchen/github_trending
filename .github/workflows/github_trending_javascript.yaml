@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/bootstrap.json
+          export json_file=configs/javascript-algorithms.json
           export number=0
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_bootstrap"
+          # wecover "GithubTrending_javascript_javascript-algorithms"
           export jpg="figures/javascript_0.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/react-native.json
+          export json_file=configs/clean-code-javascript.json
           export number=2
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_react-native"
+          # wecover "GithubTrending_javascript_clean-code-javascript"
           export jpg="figures/javascript_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/d3.json
+          export json_file=configs/33-js-concepts.json
           export number=3
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_d3"
+          # wecover "GithubTrending_javascript_33-js-concepts"
           export jpg="figures/javascript_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/next.js.json
+          export json_file=configs/mermaid.json
           export number=4
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_next.js"
+          # wecover "GithubTrending_javascript_mermaid"
           export jpg="figures/javascript_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/clean-code-javascript.json
+          export json_file=configs/parcel.json
           export number=5
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_clean-code-javascript"
+          # wecover "GithubTrending_javascript_parcel"
           export jpg="figures/javascript_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/33-js-concepts.json
+          export json_file=configs/vue-cli.json
           export number=6
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_33-js-concepts"
+          # wecover "GithubTrending_javascript_vue-cli"
           export jpg="figures/javascript_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/algorithm-visualizer.json
+          export json_file=configs/30-Days-Of-JavaScript.json
           export number=7
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_algorithm-visualizer"
+          # wecover "GithubTrending_javascript_30-Days-Of-JavaScript"
           export jpg="figures/javascript_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/30-Days-Of-JavaScript.json
+          export json_file=configs/wtfjs.json
           export number=8
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_30-Days-Of-JavaScript"
+          # wecover "GithubTrending_javascript_wtfjs"
           export jpg="figures/javascript_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/insomnia.json
+          export json_file=configs/odoo.json
           export number=9
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_insomnia"
+          # wecover "GithubTrending_javascript_odoo"
           export jpg="figures/javascript_9.png"
           python run.py        

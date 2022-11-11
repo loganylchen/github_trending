@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/dplyr.json
+          export json_file=configs/swirl_courses.json
           export number=2
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_R_dplyr"
+          # wecover "GithubTrending_R_swirl_courses"
           export jpg="figures/R_2.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/caret.json
+          export json_file=configs/sf.json
           export number=6
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_R_caret"
+          # wecover "GithubTrending_R_sf"
           export jpg="figures/R_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/tidyr.json
+          export json_file=configs/ComplexHeatmap.json
           export number=7
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_R_tidyr"
+          # wecover "GithubTrending_R_ComplexHeatmap"
           export jpg="figures/R_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/sf.json
+          export json_file=configs/ggpubr.json
           export number=8
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_R_sf"
+          # wecover "GithubTrending_R_ggpubr"
           export jpg="figures/R_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/brms.json
+          export json_file=configs/sparklyr.json
           export number=9
           export language=R
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_R_brms"
+          # wecover "GithubTrending_R_sparklyr"
           export jpg="figures/R_9.png"
           python run.py        
