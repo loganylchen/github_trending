@@ -1,10 +1,10 @@
 {
-    "full_name": "typescript-cheatsheets/react",
+    "full_name": "facebook/react",
     "name": "react",
-    "html_url": "https://github.com/typescript-cheatsheets/react",
-    "stargazers_count": 37747,
+    "html_url": "https://github.com/facebook/react",
+    "stargazers_count": 197568,
     "language": "JavaScript",
-    "description": "Cheatsheets for experienced React developers getting started with TypeScript",
-    "date_range": "23 stars today",
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "date_range": "47 stars today",
     "watchers_count": -1
 }

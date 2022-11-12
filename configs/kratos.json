@@ -1,10 +1,10 @@
 {
-    "full_name": "ory/kratos",
+    "full_name": "go-kratos/kratos",
     "name": "kratos",
-    "html_url": "https://github.com/ory/kratos",
-    "stargazers_count": 7793,
+    "html_url": "https://github.com/go-kratos/kratos",
+    "stargazers_count": 19237,
     "language": "Go",
-    "description": "Next-gen identity server (think Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless. Golang, headless, API-only - without templating or theming headaches. Available as a cloud service.",
-    "date_range": "12 stars today",
+    "description": "Your ultimate Go microservices framework for the cloud-native era.",
+    "date_range": "7 stars today",
     "watchers_count": -1
 }

@@ -1,10 +1,10 @@
 {
-    "full_name": "json-iterator/go",
+    "full_name": "golang/go",
     "name": "go",
-    "html_url": "https://github.com/json-iterator/go",
-    "stargazers_count": 11482,
+    "html_url": "https://github.com/golang/go",
+    "stargazers_count": 105689,
     "language": "Go",
-    "description": "A high-performance 100% compatible drop-in replacement of \"encoding/json\"",
-    "date_range": "9 stars today",
+    "description": "The Go programming language",
+    "date_range": "42 stars today",
     "watchers_count": -1
 }
