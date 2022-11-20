@@ -1,0 +1,10 @@
+{
+    "full_name": "aws/aws-sam-cli",
+    "name": "aws-sam-cli",
+    "html_url": "https://github.com/aws/aws-sam-cli",
+    "stargazers_count": 6134,
+    "language": "Python",
+    "description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
+    "date_range": "3 stars today",
+    "watchers_count": -1
+}

@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/react.json
+          export json_file=configs/javascript.json
           export number=0
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_react"
+          # wecover "GithubTrending_javascript_javascript"
           export jpg="figures/javascript_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/bootstrap.json
+          export json_file=configs/node.json
           export number=1
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_bootstrap"
+          # wecover "GithubTrending_javascript_node"
           export jpg="figures/javascript_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/react-native.json
+          export json_file=configs/material-ui.json
           export number=2
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_react-native"
+          # wecover "GithubTrending_javascript_material-ui"
           export jpg="figures/javascript_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/d3.json
+          export json_file=configs/gatsby.json
           export number=3
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_d3"
+          # wecover "GithubTrending_javascript_gatsby"
           export jpg="figures/javascript_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/three.js.json
+          export json_file=configs/strapi.json
           export number=4
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_three.js"
+          # wecover "GithubTrending_javascript_strapi"
           export jpg="figures/javascript_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/gatsby.json
+          export json_file=configs/cypress.json
           export number=5
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_gatsby"
+          # wecover "GithubTrending_javascript_cypress"
           export jpg="figures/javascript_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/strapi.json
+          export json_file=configs/dayjs.json
           export number=6
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_strapi"
+          # wecover "GithubTrending_javascript_dayjs"
           export jpg="figures/javascript_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Leaflet.json
+          export json_file=configs/algorithm-visualizer.json
           export number=7
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_Leaflet"
+          # wecover "GithubTrending_javascript_algorithm-visualizer"
           export jpg="figures/javascript_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/project-guidelines.json
+          export json_file=configs/odoo.json
           export number=8
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_project-guidelines"
+          # wecover "GithubTrending_javascript_odoo"
           export jpg="figures/javascript_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/odoo.json
+          export json_file=configs/jsPDF.json
           export number=9
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_odoo"
+          # wecover "GithubTrending_javascript_jsPDF"
           export jpg="figures/javascript_9.png"
           python run.py        

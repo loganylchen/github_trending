@@ -2,9 +2,9 @@
     "full_name": "gin-gonic/gin",
     "name": "gin",
     "html_url": "https://github.com/gin-gonic/gin",
-    "stargazers_count": 64296,
+    "stargazers_count": 64471,
     "language": "Go",
     "description": "Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.",
-    "date_range": "24 stars today",
+    "date_range": "20 stars today",
     "watchers_count": -1
 }
