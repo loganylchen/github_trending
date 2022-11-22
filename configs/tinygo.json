@@ -1,0 +1,10 @@
+{
+    "full_name": "tinygo-org/tinygo",
+    "name": "tinygo",
+    "html_url": "https://github.com/tinygo-org/tinygo",
+    "stargazers_count": 11867,
+    "language": "Go",
+    "description": "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM.",
+    "date_range": "5 stars today",
+    "watchers_count": -1
+}
