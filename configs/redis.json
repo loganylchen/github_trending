@@ -1,10 +1,10 @@
 {
-    "full_name": "redis/redis",
+    "full_name": "tporadowski/redis",
     "name": "redis",
-    "html_url": "https://github.com/redis/redis",
-    "stargazers_count": 57648,
+    "html_url": "https://github.com/tporadowski/redis",
+    "stargazers_count": 6141,
     "language": "C",
-    "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.",
-    "date_range": "13 stars today",
+    "description": "Native port of Redis for Windows. Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs. This repository contains unofficial port of Redis to Windows.",
+    "date_range": "6 stars today",
     "watchers_count": -1
 }

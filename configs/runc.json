@@ -1,0 +1,10 @@
+{
+    "full_name": "opencontainers/runc",
+    "name": "runc",
+    "html_url": "https://github.com/opencontainers/runc",
+    "stargazers_count": 9769,
+    "language": "Go",
+    "description": "CLI tool for spawning and running containers according to the OCI specification",
+    "date_range": "8 stars today",
+    "watchers_count": -1
+}

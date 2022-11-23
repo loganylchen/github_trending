@@ -2,9 +2,9 @@
     "full_name": "redisson/redisson",
     "name": "redisson",
     "html_url": "https://github.com/redisson/redisson",
-    "stargazers_count": 20128,
+    "stargazers_count": 20187,
     "language": "Java",
     "description": "Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, local cache ...",
-    "date_range": "4 stars today",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }
