@@ -1,0 +1,10 @@
+{
+    "full_name": "cert-manager/cert-manager",
+    "name": "cert-manager",
+    "html_url": "https://github.com/cert-manager/cert-manager",
+    "stargazers_count": 9654,
+    "language": "Go",
+    "description": "Automatically provision and manage TLS certificates in Kubernetes",
+    "date_range": "5 stars today",
+    "watchers_count": -1
+}

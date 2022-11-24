@@ -2,9 +2,9 @@
     "full_name": "grafana/loki",
     "name": "loki",
     "html_url": "https://github.com/grafana/loki",
-    "stargazers_count": 17539,
+    "stargazers_count": 17684,
     "language": "Go",
     "description": "Like Prometheus, but for logs.",
-    "date_range": "11 stars today",
+    "date_range": "5 stars today",
     "watchers_count": -1
 }
