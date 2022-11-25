@@ -1,0 +1,10 @@
+{
+    "full_name": "buger/goreplay",
+    "name": "goreplay",
+    "html_url": "https://github.com/buger/goreplay",
+    "stargazers_count": 16404,
+    "language": "Go",
+    "description": "GoReplay is an open-source tool for capturing and replaying live HTTP traffic into a test environment in order to continuously test your system with real data. It can be used to increase confidence in code deployments, configuration changes and infrastructure changes.",
+    "date_range": "13 stars today",
+    "watchers_count": -1
+}

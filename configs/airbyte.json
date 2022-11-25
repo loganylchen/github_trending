@@ -2,9 +2,9 @@
     "full_name": "airbytehq/airbyte",
     "name": "airbyte",
     "html_url": "https://github.com/airbytehq/airbyte",
-    "stargazers_count": 8423,
+    "stargazers_count": 8724,
     "language": "Java",
-    "description": "Airbyte is an open-source EL(T) platform that helps you replicate your data in your warehouses, lakes and databases.",
-    "date_range": "3 stars today",
+    "description": "Data integration pipelines from APIs, databases & files to warehouses & lakes.",
+    "date_range": "17 stars today",
     "watchers_count": -1
 }

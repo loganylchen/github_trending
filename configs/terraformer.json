@@ -1,0 +1,10 @@
+{
+    "full_name": "GoogleCloudPlatform/terraformer",
+    "name": "terraformer",
+    "html_url": "https://github.com/GoogleCloudPlatform/terraformer",
+    "stargazers_count": 9074,
+    "language": "Go",
+    "description": "CLI tool to generate terraform files from existing infrastructure (reverse Terraform). Infrastructure to Code",
+    "date_range": "8 stars today",
+    "watchers_count": -1
+}
