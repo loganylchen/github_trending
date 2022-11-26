@@ -1,0 +1,10 @@
+{
+    "full_name": "sshuttle/sshuttle",
+    "name": "sshuttle",
+    "html_url": "https://github.com/sshuttle/sshuttle",
+    "stargazers_count": 9153,
+    "language": "Python",
+    "description": "Transparent proxy server that works as a poor man's VPN. Forwards over ssh. Doesn't require admin. Works with Linux and MacOS. Supports DNS tunneling.",
+    "date_range": "14 stars today",
+    "watchers_count": -1
+}
