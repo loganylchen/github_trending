@@ -1,0 +1,10 @@
+{
+    "full_name": "casbin/casbin",
+    "name": "casbin",
+    "html_url": "https://github.com/casbin/casbin",
+    "stargazers_count": 13268,
+    "language": "Go",
+    "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Golang",
+    "date_range": "5 stars today",
+    "watchers_count": -1
+}

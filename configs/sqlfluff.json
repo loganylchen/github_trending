@@ -1,0 +1,10 @@
+{
+    "full_name": "sqlfluff/sqlfluff",
+    "name": "sqlfluff",
+    "html_url": "https://github.com/sqlfluff/sqlfluff",
+    "stargazers_count": 5319,
+    "language": "Python",
+    "description": "A modular SQL linter and auto-formatter with support for multiple dialects and templated code.",
+    "date_range": "9 stars today",
+    "watchers_count": -1
+}

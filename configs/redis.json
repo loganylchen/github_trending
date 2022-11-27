@@ -1,10 +1,10 @@
 {
-    "full_name": "tporadowski/redis",
+    "full_name": "go-redis/redis",
     "name": "redis",
-    "html_url": "https://github.com/tporadowski/redis",
-    "stargazers_count": 6141,
-    "language": "C",
-    "description": "Native port of Redis for Windows. Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs. This repository contains unofficial port of Redis to Windows.",
-    "date_range": "6 stars today",
+    "html_url": "https://github.com/go-redis/redis",
+    "stargazers_count": 15953,
+    "language": "Go",
+    "description": "Type-safe Redis client for Golang",
+    "date_range": "10 stars today",
     "watchers_count": -1
 }
