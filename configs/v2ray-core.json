@@ -1,10 +1,10 @@
 {
-    "full_name": "v2ray/v2ray-core",
+    "full_name": "v2fly/v2ray-core",
     "name": "v2ray-core",
-    "html_url": "https://github.com/v2ray/v2ray-core",
-    "stargazers_count": 40962,
+    "html_url": "https://github.com/v2fly/v2ray-core",
+    "stargazers_count": 19416,
     "language": "Go",
     "description": "A platform for building proxies to bypass network restrictions.",
-    "date_range": "6 stars today",
+    "date_range": "26 stars today",
     "watchers_count": -1
 }

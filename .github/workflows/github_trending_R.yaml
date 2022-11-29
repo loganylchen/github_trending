@@ -1,0 +1,227 @@
+
+name: github_trending_R
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+jobs:
+    
+  R_github_trending_0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/ggplot2.json
+          export number=0
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_ggplot2"
+          export jpg="figures/R_0.png"
+          python run.py        
+
+  R_github_trending_1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/shiny.json
+          export number=1
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_shiny"
+          export jpg="figures/R_1.png"
+          python run.py        
+
+  R_github_trending_2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/swirl_courses.json
+          export number=2
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_swirl_courses"
+          export jpg="figures/R_2.png"
+          python run.py        
+
+  R_github_trending_3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/stat_rethinking_2022.json
+          export number=3
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_stat_rethinking_2022"
+          export jpg="figures/R_3.png"
+          python run.py        
+
+  R_github_trending_4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/caret.json
+          export number=4
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_caret"
+          export jpg="figures/R_4.png"
+          python run.py        
+
+  R_github_trending_5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/ggrepel.json
+          export number=5
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_ggrepel"
+          export jpg="figures/R_5.png"
+          python run.py        
+
+  R_github_trending_6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/ProgrammingAssignment2.json
+          export number=6
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_ProgrammingAssignment2"
+          export jpg="figures/R_6.png"
+          python run.py        
+
+  R_github_trending_7:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/datasets.json
+          export number=7
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_datasets"
+          export jpg="figures/R_7.png"
+          python run.py        
+
+  R_github_trending_8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/literature-clock.json
+          export number=8
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_literature-clock"
+          export jpg="figures/R_8.png"
+          python run.py        
+
+  R_github_trending_9:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - uses: actions/checkout@v2
+      - name: get Environment
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg
+          export refresh_token="${{ secrets.refresh_token }}"
+          export access_token="${{ secrets.access_token }}"
+          export json_file=configs/r-source.json
+          export number=9
+          export language=R
+          pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
+          pip install -r requirements.txt
+          # wecover "GithubTrending_R_r-source"
+          export jpg="figures/R_9.png"
+          python run.py        
