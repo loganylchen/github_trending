@@ -2,9 +2,9 @@
     "full_name": "go-redis/redis",
     "name": "redis",
     "html_url": "https://github.com/go-redis/redis",
-    "stargazers_count": 15953,
+    "stargazers_count": 15978,
     "language": "Go",
     "description": "Type-safe Redis client for Golang",
-    "date_range": "10 stars today",
+    "date_range": "11 stars today",
     "watchers_count": -1
 }

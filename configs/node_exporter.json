@@ -1,0 +1,10 @@
+{
+    "full_name": "prometheus/node_exporter",
+    "name": "node_exporter",
+    "html_url": "https://github.com/prometheus/node_exporter",
+    "stargazers_count": 8186,
+    "language": "Go",
+    "description": "Exporter for machine metrics",
+    "date_range": "15 stars today",
+    "watchers_count": -1
+}
