@@ -1,10 +1,10 @@
 {
-    "full_name": "Automattic/mongoose",
+    "full_name": "cesanta/mongoose",
     "name": "mongoose",
-    "html_url": "https://github.com/Automattic/mongoose",
-    "stargazers_count": 24978,
-    "language": "JavaScript",
-    "description": "MongoDB object modeling designed to work in an asynchronous environment.",
-    "date_range": "7 stars today",
+    "html_url": "https://github.com/cesanta/mongoose",
+    "stargazers_count": 8959,
+    "language": "C",
+    "description": "Embedded Web Server",
+    "date_range": "6 stars today",
     "watchers_count": -1
 }
