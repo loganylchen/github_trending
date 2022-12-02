@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/vault.json
+          export json_file=configs/terraform.json
           export number=0
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_vault"
+          # wecover "GithubTrending_go_terraform"
           export jpg="figures/go_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/consul.json
+          export json_file=configs/vault.json
           export number=1
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_consul"
+          # wecover "GithubTrending_go_vault"
           export jpg="figures/go_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/lazydocker.json
+          export json_file=configs/minikube.json
           export number=2
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_lazydocker"
+          # wecover "GithubTrending_go_minikube"
           export jpg="figures/go_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/go-zero.json
+          export json_file=configs/lazydocker.json
           export number=3
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_go-zero"
+          # wecover "GithubTrending_go_lazydocker"
           export jpg="figures/go_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/zap.json
+          export json_file=configs/rancher.json
           export number=4
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_zap"
+          # wecover "GithubTrending_go_rancher"
           export jpg="figures/go_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/AdGuardHome.json
+          export json_file=configs/packer.json
           export number=5
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_AdGuardHome"
+          # wecover "GithubTrending_go_packer"
           export jpg="figures/go_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/cadvisor.json
+          export json_file=configs/telegraf.json
           export number=6
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_cadvisor"
+          # wecover "GithubTrending_go_telegraf"
           export jpg="figures/go_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/chi.json
+          export json_file=configs/argo-cd.json
           export number=7
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_chi"
+          # wecover "GithubTrending_go_argo-cd"
           export jpg="figures/go_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/argo-cd.json
+          export json_file=configs/gh-ost.json
           export number=8
           export language=go
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_go_argo-cd"
+          # wecover "GithubTrending_go_gh-ost"
           export jpg="figures/go_8.png"
           python run.py        
 
