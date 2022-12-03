@@ -1,0 +1,10 @@
+{
+    "full_name": "kubernetes-sigs/kustomize",
+    "name": "kustomize",
+    "html_url": "https://github.com/kubernetes-sigs/kustomize",
+    "stargazers_count": 9077,
+    "language": "Go",
+    "description": "Customization of kubernetes YAML configurations",
+    "date_range": "4 stars today",
+    "watchers_count": -1
+}
