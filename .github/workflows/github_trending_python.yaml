@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/transformers.json
+          export json_file=configs/public-apis.json
           export number=0
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_transformers"
+          # wecover "GithubTrending_python_public-apis"
           export jpg="figures/python_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/PayloadsAllTheThings.json
+          export json_file=configs/transformers.json
           export number=1
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_PayloadsAllTheThings"
+          # wecover "GithubTrending_python_transformers"
           export jpg="figures/python_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/CppCoreGuidelines.json
+          export json_file=configs/devops-exercises.json
           export number=2
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_CppCoreGuidelines"
+          # wecover "GithubTrending_python_devops-exercises"
           export jpg="figures/python_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/devops-exercises.json
+          export json_file=configs/GFPGAN.json
           export number=3
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_devops-exercises"
+          # wecover "GithubTrending_python_GFPGAN"
           export jpg="figures/python_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/cheat.sh.json
+          export json_file=configs/hackingtool.json
           export number=4
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_cheat.sh"
+          # wecover "GithubTrending_python_hackingtool"
           export jpg="figures/python_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/sentry.json
+          export json_file=configs/fairseq.json
           export number=5
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_sentry"
+          # wecover "GithubTrending_python_fairseq"
           export jpg="figures/python_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/hackingtool.json
+          export json_file=configs/ungoogled-chromium.json
           export number=6
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_hackingtool"
+          # wecover "GithubTrending_python_ungoogled-chromium"
           export jpg="figures/python_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/pytorch-image-models.json
+          export json_file=configs/GHunt.json
           export number=7
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_pytorch-image-models"
+          # wecover "GithubTrending_python_GHunt"
           export jpg="figures/python_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/celery.json
+          export json_file=configs/backtrader.json
           export number=8
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_celery"
+          # wecover "GithubTrending_python_backtrader"
           export jpg="figures/python_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/gpt-2.json
+          export json_file=configs/nas-tools.json
           export number=9
           export language=python
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_python_gpt-2"
+          # wecover "GithubTrending_python_nas-tools"
           export jpg="figures/python_9.png"
           python run.py        
