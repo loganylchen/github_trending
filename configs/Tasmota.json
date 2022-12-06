@@ -2,9 +2,9 @@
     "full_name": "arendst/Tasmota",
     "name": "Tasmota",
     "html_url": "https://github.com/arendst/Tasmota",
-    "stargazers_count": 18715,
+    "stargazers_count": 18745,
     "language": "C",
     "description": "Alternative firmware for ESP8266 with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at",
-    "date_range": "6 stars today",
+    "date_range": "15 stars today",
     "watchers_count": -1
 }

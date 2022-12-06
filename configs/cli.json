@@ -1,10 +1,10 @@
 {
-    "full_name": "cli/cli",
+    "full_name": "r-lib/cli",
     "name": "cli",
-    "html_url": "https://github.com/cli/cli",
-    "stargazers_count": 30572,
-    "language": "Go",
-    "description": "GitHub\u2019s official command line tool",
-    "date_range": "15 stars today",
+    "html_url": "https://github.com/r-lib/cli",
+    "stargazers_count": 491,
+    "language": "R",
+    "description": "Tools for making beautiful & useful command line interfaces",
+    "date_range": "0 stars today",
     "watchers_count": -1
 }
