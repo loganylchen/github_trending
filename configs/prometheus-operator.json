@@ -1,0 +1,10 @@
+{
+    "full_name": "prometheus-operator/prometheus-operator",
+    "name": "prometheus-operator",
+    "html_url": "https://github.com/prometheus-operator/prometheus-operator",
+    "stargazers_count": 7630,
+    "language": "Go",
+    "description": "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes",
+    "date_range": "9 stars today",
+    "watchers_count": -1
+}

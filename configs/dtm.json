@@ -1,0 +1,10 @@
+{
+    "full_name": "dtm-labs/dtm",
+    "name": "dtm",
+    "html_url": "https://github.com/dtm-labs/dtm",
+    "stargazers_count": 7994,
+    "language": "Go",
+    "description": "A distributed transaction framework, supports workflow, saga, tcc, xa, 2-phase message, outbox patterns, supports many languages.",
+    "date_range": "16 stars today",
+    "watchers_count": -1
+}

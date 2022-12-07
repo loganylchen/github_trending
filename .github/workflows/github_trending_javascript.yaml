@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/awesome-selfhosted.json
+          export json_file=configs/javascript-algorithms.json
           export number=0
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_awesome-selfhosted"
+          # wecover "GithubTrending_javascript_javascript-algorithms"
           export jpg="figures/javascript_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/create-react-app.json
+          export json_file=configs/gatsby.json
           export number=1
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_create-react-app"
+          # wecover "GithubTrending_javascript_gatsby"
           export jpg="figures/javascript_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/github-readme-stats.json
+          export json_file=configs/bypass-paywalls-chrome.json
           export number=2
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_github-readme-stats"
+          # wecover "GithubTrending_javascript_bypass-paywalls-chrome"
           export jpg="figures/javascript_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/front-end-interview-handbook.json
+          export json_file=configs/wtfjs.json
           export number=3
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_front-end-interview-handbook"
+          # wecover "GithubTrending_javascript_wtfjs"
           export jpg="figures/javascript_3.png"
           python run.py        
 
@@ -107,12 +107,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/ccxt.json
+          export json_file=configs/nginxconfig.io.json
           export number=4
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_ccxt"
+          # wecover "GithubTrending_javascript_nginxconfig.io"
           export jpg="figures/javascript_4.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/lx-music-desktop.json
+          export json_file=configs/weekly.json
           export number=5
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_lx-music-desktop"
+          # wecover "GithubTrending_javascript_weekly"
           export jpg="figures/javascript_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/docs.json
+          export json_file=configs/react-grid-layout.json
           export number=6
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_docs"
+          # wecover "GithubTrending_javascript_react-grid-layout"
           export jpg="figures/javascript_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/chinese-independent-blogs.json
+          export json_file=configs/Mobile-Security-Framework-MobSF.json
           export number=7
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_chinese-independent-blogs"
+          # wecover "GithubTrending_javascript_Mobile-Security-Framework-MobSF"
           export jpg="figures/javascript_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/electron-quick-start.json
+          export json_file=configs/showdown.json
           export number=8
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_electron-quick-start"
+          # wecover "GithubTrending_javascript_showdown"
           export jpg="figures/javascript_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/OpenClash.json
+          export json_file=configs/chinese-independent-blogs.json
           export number=9
           export language=javascript
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_javascript_OpenClash"
+          # wecover "GithubTrending_javascript_chinese-independent-blogs"
           export jpg="figures/javascript_9.png"
           python run.py        

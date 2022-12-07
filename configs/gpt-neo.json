@@ -1,0 +1,10 @@
+{
+    "full_name": "EleutherAI/gpt-neo",
+    "name": "gpt-neo",
+    "html_url": "https://github.com/EleutherAI/gpt-neo",
+    "stargazers_count": 6578,
+    "language": "Python",
+    "description": "An implementation of model parallel GPT-2 and GPT-3-style models using the mesh-tensorflow library.",
+    "date_range": "12 stars today",
+    "watchers_count": -1
+}
