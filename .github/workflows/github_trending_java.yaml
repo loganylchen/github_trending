@@ -19,12 +19,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/MPAndroidChart.json
+          export json_file=configs/Java.json
           export number=0
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_MPAndroidChart"
+          # wecover "GithubTrending_java_Java"
           export jpg="figures/java_0.png"
           python run.py        
 
@@ -41,12 +41,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/NewPipe.json
+          export json_file=configs/ghidra.json
           export number=1
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_NewPipe"
+          # wecover "GithubTrending_java_ghidra"
           export jpg="figures/java_1.png"
           python run.py        
 
@@ -63,12 +63,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/leetcode.json
+          export json_file=configs/NewPipe.json
           export number=2
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_leetcode"
+          # wecover "GithubTrending_java_NewPipe"
           export jpg="figures/java_2.png"
           python run.py        
 
@@ -85,12 +85,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Mindustry.json
+          export json_file=configs/leetcode.json
           export number=3
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_Mindustry"
+          # wecover "GithubTrending_java_leetcode"
           export jpg="figures/java_3.png"
           python run.py        
 
@@ -129,12 +129,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/zookeeper.json
+          export json_file=configs/SmartTubeNext.json
           export number=5
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_zookeeper"
+          # wecover "GithubTrending_java_SmartTubeNext"
           export jpg="figures/java_5.png"
           python run.py        
 
@@ -151,12 +151,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/DSA-Bootcamp-Java.json
+          export json_file=configs/Paper.json
           export number=6
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_DSA-Bootcamp-Java"
+          # wecover "GithubTrending_java_Paper"
           export jpg="figures/java_6.png"
           python run.py        
 
@@ -173,12 +173,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/LSPosed.json
+          export json_file=configs/lawnchair.json
           export number=7
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_LSPosed"
+          # wecover "GithubTrending_java_lawnchair"
           export jpg="figures/java_7.png"
           python run.py        
 
@@ -195,12 +195,12 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/Paper.json
+          export json_file=configs/MusicBot.json
           export number=8
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_Paper"
+          # wecover "GithubTrending_java_MusicBot"
           export jpg="figures/java_8.png"
           python run.py        
 
@@ -217,11 +217,11 @@ jobs:
           sudo apt install ffmpeg
           export refresh_token="${{ secrets.refresh_token }}"
           export access_token="${{ secrets.access_token }}"
-          export json_file=configs/lawnchair.json
+          export json_file=configs/ripme.json
           export number=9
           export language=java
           pip install git+https://github.com/FortuneDayssss/BilibiliUploader.git
           pip install -r requirements.txt
-          # wecover "GithubTrending_java_lawnchair"
+          # wecover "GithubTrending_java_ripme"
           export jpg="figures/java_9.png"
           python run.py        
