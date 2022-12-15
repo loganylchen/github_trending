@@ -1,0 +1,10 @@
+{
+    "full_name": "kubeshark/kubeshark",
+    "name": "kubeshark",
+    "html_url": "https://github.com/kubeshark/kubeshark",
+    "stargazers_count": 7356,
+    "language": "Go",
+    "description": "The API traffic viewer for Kubernetes providing deep visibility into all API traffic and payloads going in, out and across containers and pods inside a Kubernetes cluster. Think TCPDump and Wireshark re-invented for Kubernetes",
+    "date_range": "132 stars today",
+    "watchers_count": -1
+}
