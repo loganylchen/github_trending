@@ -1,0 +1,10 @@
+{
+    "full_name": "ray-project/ray",
+    "name": "ray",
+    "html_url": "https://github.com/ray-project/ray",
+    "stargazers_count": 23082,
+    "language": "Python",
+    "description": "Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a toolkit of libraries (Ray AIR) for accelerating ML workloads.",
+    "date_range": "22 stars today",
+    "watchers_count": -1
+}

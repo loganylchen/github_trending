@@ -2,9 +2,9 @@
     "full_name": "airbytehq/airbyte",
     "name": "airbyte",
     "html_url": "https://github.com/airbytehq/airbyte",
-    "stargazers_count": 8724,
+    "stargazers_count": 8899,
     "language": "Java",
-    "description": "Data integration pipelines from APIs, databases & files to warehouses & lakes.",
-    "date_range": "17 stars today",
+    "description": "Data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes.",
+    "date_range": "10 stars today",
     "watchers_count": -1
 }

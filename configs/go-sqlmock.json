@@ -1,0 +1,10 @@
+{
+    "full_name": "DATA-DOG/go-sqlmock",
+    "name": "go-sqlmock",
+    "html_url": "https://github.com/DATA-DOG/go-sqlmock",
+    "stargazers_count": 4873,
+    "language": "Go",
+    "description": "Sql mock driver for golang to test database interactions",
+    "date_range": "4 stars today",
+    "watchers_count": -1
+}

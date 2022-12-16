@@ -1,0 +1,10 @@
+{
+    "full_name": "aquasecurity/kube-bench",
+    "name": "kube-bench",
+    "html_url": "https://github.com/aquasecurity/kube-bench",
+    "stargazers_count": 5443,
+    "language": "Go",
+    "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
+    "date_range": "4 stars today",
+    "watchers_count": -1
+}
